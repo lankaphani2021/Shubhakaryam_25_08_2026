@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shubhakarya</string>
+    <string name="short_name">Shubhakarya</string>
+    <string name="short_desc">Book Pooja Services</string>
+    <string name="full_desc">Shubhakarya is your trusted platform for booking authentic Hindu pooja services, Vedic priests, astrology consultations, and ancestral ceremonies. Browse traditional ceremonies, choose verified priests, pick auspicious dates, and book securely in minutes.
+
+KEY FEATURES:
+• 100+ Pooja Services - Satyanarayan Puja, Griha Pravesh, Weddings, Namkaranam &amp; more
+• Vedic Priests - Verified, experienced pandits for all traditions
+• Astrology Services - Horoscope analysis, Kundali matching, Muhurtham finding
+• Navagraha Daan - 9 planet offerings at your doorstep
+• Pind Daan - Complete ancestral ceremonies and Shraddh services
+• Home Visits - Priest comes to your home with all materials
+• Real-time Availability - Check priest availability and book instantly
+• Secure Booking - Simple booking with transparent pricing
+• Multi-language Support - Services in multiple Indian languages
+• Traditional & Authentic - Follows all Hindu customs and traditions
+
+PERFECT FOR:
+• Daily poojas at home
+• Special occasions (birthdays, anniversaries)
+• Life ceremonies (weddings, griha pravesh, naming ceremonies)
+• Ancestral rituals (Pind Daan, Shraddh, Tarpanam)
+• Planetary remedies (Navagraha Daan)
+• Spiritual guidance (Astrology consultations)
+
+SERVICES ACROSS INDIA:
+Currently serving Hyderabad with expansion to other cities coming soon.
+
+WHY SHUBHAKARYA?
+• Verified and experienced priests
+• Complete samagri and materials provided
+• Transparent pricing, no hidden charges
+• Easy booking in few clicks
+• Customer support available
+• Follows authentic Hindu traditions
+
+Download now and bring divine blessings to your home!</string>
+    <string name="privacy_policy_url">https://pooja-booking-platform-3653.kliv.site/privacy</string>
+    <string name="contact_email">lankaphani2021@gmail.com</string>
+    <string name="website">https://pooja-booking-platform-3653.kliv.site</string>
+    <string name="store_listing_background_color">#dc2626</string>
+</resources>

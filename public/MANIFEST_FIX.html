@@ -1,0 +1,20 @@
+<!-- Add this to your index.html head section -->
+<link rel="manifest" href="/manifest.json" />
+<meta name="theme-color" content="#dc2626" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Shubkaryam">
+
+<!-- Ensure your manifest.json is accessible -->
+<script>
+  // Test manifest availability
+  fetch('/manifest.json')
+    .then(response => {
+      if (!response.ok) {
+        console.error('Manifest not found');
+      }
+    })
+    .catch(error => {
+      console.error('Error loading manifest:', error);
+    });
+</script>

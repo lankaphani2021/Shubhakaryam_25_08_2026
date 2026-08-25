@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <meta name="theme-color" content="#dc2626" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Shubkaryam" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Shubkaryam" />
+    <meta name="msapplication-TileColor" content="#dc2626" />
+    <title>Shubkaryam — Book Pooja Services & Vedic Priests</title>
+    <meta name="description" content="Browse authentic pooja services, choose a verified Vedic priest, pick your muhurtham date and book securely in minutes." />
+    <meta name="author" content="Shubkaryam" />
+
+    <meta property="og:title" content="Shubkaryam — Book Pooja Services & Vedic Priests" />
+    <meta property="og:description" content="Browse authentic pooja services, choose a verified Vedic priest, pick your date and book securely." />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&display=swap" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/jpeg" href="https://images.pexels.com/photos/30425298/pexels-photo-30425298.jpeg?auto=compress&cs=tinysrgb&w=192&h=192" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://images.pexels.com/photos/30425298/pexels-photo-30425298.jpeg?auto=compress&cs=tinysrgb&w=180&h=180" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Service Worker Registration for PWA
+      if ('serviceWorker' in navigator && window.location.protocol === 'https:') {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then(registration => {
+            console.log('SW registered: ', registration);
+          }).catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

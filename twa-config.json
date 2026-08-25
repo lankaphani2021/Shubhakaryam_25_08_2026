@@ -1,0 +1,39 @@
+{
+  "packageId": "com.shubhakarya.pooja",
+  "name": "Shubhakarya",
+  "shortName": "Shubhakarya",
+  "themeColor": "#dc2626",
+  "backgroundColor": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "startUrl": "/",
+  "iconUrls": [
+    "https://pooja-booking-platform-3653.kliv.site/icon-192.png",
+    "https://pooja-booking-platform-3653.kliv.site/icon-512.png"
+  ],
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "keystore.jks",
+    "alias": "shubhakarya"
+  },
+  "features": {
+    "location": {
+      "isEnabled": false
+    },
+    "notifications": {
+      "isEnabled": false
+    }
+  },
+  "generatorApp": "bubblewrap",
+  "webManifestUrl": "https://pooja-booking-platform-3653.kliv.site/manifest.json",
+  "fallbackType": "customtabs",
+  "enableNotifications": false,
+  "enableLocation": false,
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "appVersionCode": 2,
+  "appVersionName": "1.0.1",
+  "minSdkVersion": 19,
+  "targetSdkVersion": 34
+}

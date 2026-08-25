@@ -1,0 +1,74 @@
+name: Shubhakarya - Pooja Services
+short_description: Book authentic Hindu pooja services, Vedic priests & ceremonies
+full_description: |
+  Shubhakarya is your trusted platform for booking authentic Hindu pooja services, Vedic priests, astrology consultations, and ancestral ceremonies. Browse traditional ceremonies, choose verified priests, pick auspicious date and book securely in minutes.
+  
+  KEY FEATURES:
+  • 100+ Pooja Services - Satyanarayan Puja, Griha Pravesh, Weddings, Namkaranam & more
+  • Vedic Priests - Verified, experienced pandits for all traditions  
+  • Astrology Services - Horoscope analysis, Kundali matching, Muhurtham finding
+  • Navagraha Daan - 9 planet offerings at your doorstep
+  • Pind Daan - Complete ancestral ceremonies and Shraddh services
+  • Home Visits - Priest comes to your home with all materials
+  • Real-time Availability - Check priest availability and book instantly
+  • Secure Booking - Simple booking with transparent pricing
+  • Multi-language Support - Services in multiple Indian languages
+  • Traditional & Authentic - Follows all Hindu customs and traditions
+  
+  PERFECT FOR:
+  • Daily poojas at home
+  • Special occasions (birthdays, anniversaries)
+  • Life ceremonies (weddings, griha pravesh, naming ceremonies)
+  • Ancestral rituals (Pind Daan, Shraddh, Tarpanam)
+  • Planetary remedies (Navagraha Daan)
+  • Spiritual guidance (Astrology consultations)
+  
+  SERVICES ACROSS INDIA:
+  Currently serving Hyderabad with expansion to other cities coming soon.
+  
+  WHY SHUBHAKARYA?
+  • Verified and experienced priests
+  • Complete samagri and materials provided
+  • Transparent pricing, no hidden charges
+  • Easy booking in few clicks
+  • Customer support available
+  • Follows authentic Hindu traditions
+  
+  Download now and bring divine blessings to your home!
+
+privacy_policy_url: https://pooja-booking-platform-3653.kliv.site/privacy
+website_url: https://pooja-booking-platform-3653.kliv.site
+support_email: lankaphani2021@gmail.com
+contact_email: lankaphani2021@gmail.com
+
+# Play Store Configuration
+package_name: com.shubhakarya.pooja
+app_version: 1.0.0
+app_version_code: 1
+min_sdk_version: 19
+target_sdk_version: 34
+
+# Categories
+primary_category: LIFESTYLE
+secondary_category: RELIGION
+
+# Content Rating
+content_rating: Everyone
+
+# Screen Requirements (required for listing)
+feature_graphic: ./play-store-assets/graphics/feature-graphic.png (1024x500)
+promo_graphic: ./play-store-assets/graphics/promo-graphic.png (180x120)
+phone_screenshots:
+  - ./play-store-assets/screenshots/screenshot1.png (1080x1920)
+  - ./play-store-assets/screenshots/screenshot2.png (1080x1920)
+  - ./play-store-assets/screenshots/screenshot3.png (1080x1920)
+  - ./play-store-assets/screenshots/screenshot4.png (1080x1920)
+  - ./play-store-assets/screenshots/screenshot5.png (1080x1920)
+  - ./play-store-assets/screenshots/screenshot6.png (1080x1920)
+  - ./play-store-assets/screenshots/screenshot7.png (1080x1920)
+  - ./play-store-assets/screenshots/screenshot8.png (1080x1920)
+tablet_screenshots:
+  - ./play-store-assets/screenshots/tablet1.png (1920x1080)
+
+# Icons
+application_icon: ./play-store-assets/icons/application-icon-512.png (512x512)

@@ -1,0 +1,92 @@
+/* Mobile-Optimized CSS Enhancements */
+
+/* Safe area insets for iPhone X and newer */
+@supports (padding: max(0px)) {
+  body {
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
+  }
+}
+
+/* Touch-friendly tap targets */
+button, a, .clickable {
+  min-height: 44px;
+  min-width: 44px;
+  touch-action: manipulation;
+}
+
+/* Prevent pull-to-refresh on mobile */
+html {
+  overscroll-behavior-y: none;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent text selection on tap */
+*:not(input):not(textarea) {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* Enable text selection for content */
+p, h1, h2, h3, h4, h5, h6, span, div {
+  user-select: text;
+}
+
+/* Improve tap feedback */
+button:active {
+  transform: scale(0.98);
+  transition: transform 0.1s;
+}
+
+/* Better input focus on mobile */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+}
+
+/* Hide scrollbar but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  /* Better spacing on mobile */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Optimize images for mobile */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Better button sizes */
+  button {
+    min-height: 48px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
+  /* Better form inputs */
+  input, textarea, select {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
+
+/* Landscape orientation optimizations */
+@media (max-width: 768px) and (orientation: landscape) {
+  .mobile-hide-landscape {
+    display: none;
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "package name": "com.pooja.shubkaryam",
+  "appName": "Shubkaryam",
+  "versionCode": 2,
+  "versionName": "1.0.1",
+  "host": "pooja-booking-platform-3653.kliv.site",
+  "startUrl": "https://pooja-booking-platform-3653.kliv.site/",
+  "displayMode": "standalone",
+  "themeColor": "#dc2626",
+  "navigationColor": "#ffffff",
+  "backgroundColor": "#ffffff",
+  "icons": [
+    {
+      "src": "https://images.pexels.com/photos/34217667/pexels-photo-34217667.jpeg?auto=compress&cs=tinysrgb&w=192&h=192",
+      "sizes": "192x192",
+      "types": "image/png"
+    },
+    {
+      "src": "https://images.pexels.com/photos/34217667/pexels-photo-34217667.jpeg?auto=compress&cs=tinysrgb&w=512&h=512",
+      "sizes": "512x512",
+      "types": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Poojas",
+      "short_url": "/services",
+      "icon_url": "https://images.pexels.com/photos/34217667/pexels-photo-34217667.jpeg?auto=compress&cs=tinysrgb&w=96&h=96"
+    },
+    {
+      "name": "Book Pooja",
+      "short_url": "/bookings",
+      "icon_url": "https://images.pexels.com/photos/34217667/pexels-photo-34217667.jpeg?auto=compress&cs=tinysrgb&w=96&h=96"
+    },
+    {
+      "name": "My Bookings",
+      "short_url": "/bookings",
+      "icon_url": "https://images.pexels.com/photos/34217667/pexels-photo-34217667.jpeg?auto=compress&cs=tinysrgb&w=96&h=96"
+    }
+  ],
+  "orientation": "portrait",
+  "layout": "standard",
+  "sharedCacheQuotaEnabled": "true",
+  "manManifestUrl": "https://pooja-booking-platform-3653.kliv.site/manifest.json",
+  "enableNegotiateWebAuthorization": "false",
+  "alwaysShowUrlBar": "false",
+  "enableWorkspace": "false",
+  "retentionPolicy": "Universal",
+  "licensedFeatures": {},
+  "splashScreenFadeOutDuration": 300,
+  "enableBrowserFallback": "false",
+  "alphaStable": "true",
+  "generatorApp": "twa-generator"
+}

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shubhakarya.pooja">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- Features -->
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.hardware.wifi" android:required="false" />
+
+    <!-- Application -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LauncherActivity"
+        android:usesCleartextTraffic="false">
+
+        <!-- Trusted Web Activity Launcher -->
+        <activity
+            android:name="com.google.androidbrowserhelper.trusted.LauncherActivity"
+            android:exported="true"
+            android:theme="@style/Theme.LauncherActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|keyboard">
+
+            <!-- Metadata for TWA configuration -->
+            <meta-data
+                android:name="android.webkit.WebChromeClient.DefaultScheme"
+                android:value="https" />
+
+            <meta-data
+                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+                android:value="@string/default_url" />
+
+            <meta-data
+                android:name="android.app.customtabs.trusted.DEFAULT_URL"
+                android:value="@string/default_url" />
+
+            <!-- Display mode -->
+            <meta-data
+                android:name="android.support.customtabs.trusted.DISPLAY_MODE"
+                android:value="standalone" />
+
+            <!-- Screen orientation -->
+            <meta-data
+                android:name="android.support.customtabs.trusted.ORIENTATION"
+                android:value="portrait" />
+
+            <!-- Theme colors -->
+            <meta-data
+                android:name="android.support.customtabs.trusted.THEME_COLOR"
+                android:value="@android:color/holo_red_dark" />
+
+            <meta-data
+                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+                android:value="@android:color/white" />
+
+            <meta-data
+                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+                android:value="@android:color/black" />
+
+            <meta-data
+                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+                android:value="@android:color/holo_red_dark" />
+
+            <meta-data
+                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
+                android:value="@android:color/black" />
+
+            <!-- Additional TWA settings -->
+            <meta-data
+                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+                android:value="@drawable/splash_screen" />
+
+            <meta-data
+                android:name="android.support.customtabs.trusted.SPLASH_BACKGROUND_COLOR"
+                android:value="@android:color/white" />
+
+            <meta-data
+                android:name="android.support.customtabs.trusted.SPLASH_FADE_OUT_DURATION"
+                android:value="300" />
+
+            <meta-data
+                android:name="android.support.customtabs.trusted.ALLOWLIST_HOSTS"
+                android:value="@string/allowed_hosts" />
+
+            <!-- Handle app links -->
+            <meta-data
+                android:name="asset_statements"
+                android:resource="@string/asset_statements" />
+
+            <!-- Intent Filter for App Launch -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Handle URL intents -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" />
+                <data android:host="pooja-booking-platform-3653.kliv.site" />
+            </intent-filter>
+
+            <!-- Deep linking for app shortcuts -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" />
+                <data android:host="pooja-booking-platform-3653.kliv.site" />
+                <data android:path="/services" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" />
+                <data android:host="pooja-booking-platform-3653.kliv.site" />
+                <data android:path="/bookings" />
+            </intent-filter>
+
+            <!-- Browser fallback -->
+            <meta-data
+                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+                android:value="customTabs" />
+
+        </activity>
+
+        <!-- Trusted Web Activity Service -->
+        <service
+            android:name="com.google.androidbrowserhelper.trusted.TrustedWebActivityService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <!-- Provider for FileProvider -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+    <!-- Android 11+ package visibility -->
+    <queries>
+        <package android:name="com.android.chrome" />
+        <package android:name="com.chrome.canary" />
+        <package android:name="com.chrome.beta" />
+        <package android:name="com.chrome.dev" />
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
+</manifest>

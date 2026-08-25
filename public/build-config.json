@@ -1,0 +1,46 @@
+{
+  "app": {
+    "name": "Shubkaryam",
+    "package": "com.pooja.shubkaryam",
+    "version": "1.0.0",
+    "versionCode": 1,
+    "minSdkVersion": 19,
+    "targetSdkVersion": 34
+  },
+  "web": {
+    "url": "https://pooja-booking-platform-3653.kliv.site",
+    "manifest": "https://pooja-booking-platform-3653.kliv.site/manifest.json",
+    "fallback": "customTabs"
+  },
+  "display": {
+    "mode": "standalone",
+    "orientation": "portrait",
+    "themeColor": "#dc2626",
+    "backgroundColor": "#ffffff",
+    "navigationColor": "#ffffff",
+    "navigationBarColorDark": "#000000"
+  },
+  "icons": {
+    "src": "https://images.pexels.com/photos/30425298/pexels-photo-30425298.jpeg",
+    "sizes": ["512x512", "192x192", "180x180", "32x32"],
+    "type": "image/jpeg"
+  },
+  "features": {
+    "offline": true,
+    "installable": true,
+    "shareTarget": true,
+    "shortcuts": true
+  },
+  "build": {
+    "outputDir": "./dist",
+    "apkName": "Shubkaryam-release.apk",
+    "signing": "google-play"
+  },
+  "playStore": {
+    "category": "LIFESTYLE",
+    "subCategory": "RELIGION",
+    "contentRating": "Everyone",
+    "privacyPolicy": "https://pooja-booking-platform-3653.kliv.site/privacy.html",
+    "contactEmail": "lankaphani2021@gmail.com"
+  }
+}

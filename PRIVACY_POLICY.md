@@ -1,0 +1,190 @@
+# Privacy Policy
+
+**Last Updated: July 28, 2026**
+
+## Shubhakarya Privacy Policy
+
+Shubhakarya ("we," "our," or "us") is committed to protecting your privacy. This privacy policy explains how we collect, use, and safeguard your information when you use our Shubhakarya mobile application and website.
+
+## Information We Collect
+
+### 1. Personal Information
+- **Name and Contact Details**: When you book services, we collect your name, phone number, and email address
+- **Address**: For home visits, we collect your address to help priests reach you
+- **User Account Information**: Email address, name for authentication
+- **Payment Information**: We do not store payment details - all transactions are processed through secure third-party payment gateways
+
+### 2. Usage Information
+- **Booking History**: Your service bookings, preferences, and interactions with priests
+- **Device Information**: IP address, device type, operating system, and browser information
+- **Usage Data**: How you use our app, pages visited, features used
+- **Location Information**: Approximate location for finding nearby priests (optional)
+
+### 3. Information We DO NOT Collect
+- Credit card or bank details
+- Social security numbers
+- Sensitive personal information beyond what's necessary for service delivery
+
+## How We Use Your Information
+
+### 1. Service Delivery
+- Process and confirm your pooja bookings
+- Connect you with priests for home visits
+- Send booking confirmations and reminders
+- Improve our services based on usage patterns
+
+### 2. Communication
+- Send booking confirmations via email and SMS
+- Provide service updates and priest information
+- Share special offers (with your consent)
+- Customer support and service assistance
+
+### 3. Platform Improvement
+- Analyze usage patterns to improve our services
+- Optimize priest matching algorithms
+- Enhance user experience and interface
+- Prevent fraud and ensure platform security
+
+### 4. Account Management
+- Process authentication and account security
+- Manage your booking history and preferences
+- Provide customer support
+
+## Data Storage and Security
+
+### 1. Data Retention
+- **Booking Data**: Stored for 3 years for service history and legal compliance
+- **User Accounts**: Stored until account deletion
+- **Usage Analytics**: Aggregated data stored indefinitely
+- **Payment Records**: Transaction records stored for 7 years as required by law
+
+### 2. Data Security Measures
+- **Encryption**: All data transmitted using SSL/TLS encryption
+- **Secure Storage**: Data stored in secure cloud infrastructure
+- **Access Control**: Limited access to personal information
+- **Regular Security Audits**: Periodic security assessments
+- **Compliance**: Follows Indian IT Act and data protection regulations
+
+## Data Sharing Practices
+
+### 1. Service Providers
+- **Priests**: Your name, address, and booking details are shared with assigned priests for service delivery
+- **Payment Processors**: Payment information is processed through secure payment gateways (we don't store card details)
+
+### 2. Legal Requirements
+- We may disclose information if required by law or court order
+- Cooperate with law enforcement for fraud prevention
+- Protect our rights, property, or safety
+
+### 3. Business Transfers
+- In case of business sale, merger, or acquisition, user data may be transferred
+- Users will be notified of any material change in data ownership
+
+### 4. No Third-Party Sales
+- We DO NOT sell your personal information to third parties
+- No data brokerage or advertising data sharing
+
+## Your Privacy Rights
+
+### 1. Access Rights
+- Request a copy of your personal data
+- Update or correct your information
+- Delete your account and associated data (with 30-day notice)
+
+### 2. Communication Preferences
+- Opt out of marketing communications
+- Choose notification preferences
+- Unsubscribe from newsletters and promotional messages
+
+### 3. Data Portability
+- Export your booking history and account data
+- Transfer data to other services (where technically feasible)
+
+### 4. Withdraw Consent
+- Withdraw consent for data collection and processing
+- Request deletion of your personal information
+
+## Children's Privacy
+
+- Our services are not intended for children under 13
+- We do not knowingly collect information from children
+- Parents can request deletion of their child's information
+
+## Third-Party Services
+
+### 1. Payment Processing
+- Secure payment gateways for transactions
+- Please review their respective privacy policies
+
+### 2. Analytics Services
+- Google Analytics for usage insights
+- Anonymized and aggregated data only
+
+### 3. Communication Services
+- Email services for notifications
+- SMS services for booking confirmations
+
+## International Data Transfer
+
+- Data is primarily stored in India
+- May be transferred to secure servers in other countries for backup and processing
+- Adequate data protection measures are maintained
+
+## Cookies and Tracking Technologies
+
+### 1. Essential Cookies
+- Session management
+- Authentication
+- Shopping cart functionality
+
+### 2. Analytics Cookies
+- Website usage analysis
+- Performance monitoring
+- User behavior insights
+
+### 3. Marketing Cookies
+- Personalized content (with consent)
+- Preference tracking
+- A/B testing
+
+## Data Breach Notification
+
+- We will notify you within 72 hours of any data breach
+- Notification will include breach details and affected information
+- We will take immediate steps to secure data and prevent further breaches
+
+## Changes to Privacy Policy
+
+- We may update this privacy policy from time to time
+- Material changes will be notified via email/app notification
+- Continued use constitutes acceptance of updated policy
+
+## Contact Information
+
+For privacy-related questions, concerns, or requests:
+- **Email**: lankaphani2021@gmail.com
+- **Website**: https://pooja-booking-platform-3653.kliv.site
+- **Address**: Hyderabad, India
+- **Phone**: Available on request
+
+## Regulatory Compliance
+
+This privacy policy complies with:
+- **Indian IT Act 2000** and **IT Rules 2011**
+- **General Data Protection Regulation (GDPR)** for EU users
+- **California Consumer Privacy Act (CCPA)** for California residents
+
+## Privacy Policy Updates
+
+**Version 1.0 - July 28, 2026**
+- Initial privacy policy for Shubhakarya platform
+- Comprehensive data protection and user rights
+- Payment processing and service delivery data usage
+
+---
+
+**Last Reviewed: July 28, 2026**  
+**Effective Date: July 28, 2026**  
+**Next Review Date: July 28, 2027**
+
+For the most current version, please visit: https://pooja-booking-platform-3653.kliv.site/privacy
