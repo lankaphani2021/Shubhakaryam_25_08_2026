@@ -1,7 +1,7 @@
 {
   "app": {
-    "name": "Shubkaryam",
-    "package": "com.pooja.shubkaryam",
+    "name": "Shubhakaryam",
+    "package": "com.pooja.shubhakaryam",
     "version": "1.0.0",
     "versionCode": 1,
     "minSdkVersion": 19,
@@ -33,7 +33,7 @@
   },
   "build": {
     "outputDir": "./dist",
-    "apkName": "Shubkaryam-release.apk",
+    "apkName": "Shubhakaryam-release.apk",
     "signing": "google-play"
   },
   "playStore": {

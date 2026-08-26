@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# Shubhakarya Play Store Build Script
+# Shubhakaryam Play Store Build Script
 # This script automates the Android APK build process for Play Store submission
 
 set -e
 
-echo "🚀 Shubhakarya Play Store Build Process"
+echo "🚀 Shubhakaryam Play Store Build Process"
 echo "========================================"
 
 # Configuration
-APP_NAME="Shubhakarya"
-PACKAGE_NAME="com.shubhakarya.pooja"
+APP_NAME="Shubhakaryam"
+PACKAGE_NAME="com.shubhakaryam.pooja"
 MANIFEST_URL="https://pooja-booking-platform-3653.kliv.site/manifest.json"
 OUTPUT_DIR="./android-build"
 VERSION="1.0.0"
@@ -158,4 +158,4 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 fi
 
 echo "✅ Build process completed!"
-echo "🙏 Thank you for using Shubhakarya build script!"
+echo "🙏 Thank you for using Shubhakaryam build script!"

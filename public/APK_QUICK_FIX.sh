@@ -3,7 +3,7 @@
 # PWA Builder Quick Fix Script
 # This script helps you bypass the manifest issue and generate APK
 
-echo "🔥 Shubkaryam APK Generator - Quick Fix"
+echo "🔥 Shubhakaryam APK Generator - Quick Fix"
 echo "========================================"
 echo ""
 
@@ -24,8 +24,8 @@ echo "🎯 If PWA Builder still can't find manifest:"
 echo "   1. Click 'Edit Your Manifest' button"
 echo "   2. Use PWA Builder's auto-generated manifest"
 echo "   3. Customize with your details:"
-echo "      - Name: Shubkaryam"
-echo "      - Short Name: Shubkaryam"
+echo "      - Name: Shubhakaryam"
+echo "      - Short Name: Shubhakaryam"
 echo "      - Theme Color: #dc2626"
 echo "      - Icon: https://images.pexels.com/photos/30425298/pexels-photo-30425298.jpeg"
 echo "   4. Click 'Save' and proceed to build"

@@ -1,4 +1,4 @@
-# Shubkaryam - Android Studio Build Guide
+# Shubhakaryam - Android Studio Build Guide
 
 Since I cannot directly open Android Studio for you, here's everything you need to build your APK manually:
 

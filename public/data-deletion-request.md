@@ -1,8 +1,8 @@
-# Data Deletion Request - Shubkaryam
+# Data Deletion Request - Shubhakaryam
 
 ## How to Request Data Deletion
 
-You have the right to request deletion of your personal data from Shubkaryam. Here's how:
+You have the right to request deletion of your personal data from Shubhakaryam. Here's how:
 
 ## Quick Methods
 
@@ -15,7 +15,7 @@ You have the right to request deletion of your personal data from Shubkaryam. He
 ### Method 2: Direct Email
 Send your deletion request to:
 - **Email:** lankaphani2021@gmail.com
-- **Subject:** Data Deletion Request - Shubkaryam
+- **Subject:** Data Deletion Request - Shubhakaryam
 - **Include:** Your registered email address and phone number
 
 ### Method 3: Contact Form

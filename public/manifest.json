@@ -1,6 +1,6 @@
 {
-  "name": "Shubkaryam - Traditional Ceremonies Made Simple",
-  "short_name": "Shubkaryam",
+  "name": "Shubhakaryam - Traditional Ceremonies Made Simple",
+  "short_name": "Shubhakaryam",
   "description": "Book verified Vedic priests for poojas, homams, astrology services, and Navagraha Daan. Private religious platform with doorstep ceremonies across Hyderabad.",
   "start_url": "/",
   "display": "standalone",
@@ -16,19 +16,19 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/icons/shubkaryam-192.png",
+      "src": "/icons/shubhakaryam-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/shubkaryam-512.png",
+      "src": "/icons/shubhakaryam-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/shubkaryam-512-maskable.png",
+      "src": "/icons/shubhakaryam-512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -42,7 +42,7 @@
       "url": "/services",
       "icons": [
         {
-          "src": "/icons/shubkaryam-96.png",
+          "src": "/icons/shubhakaryam-96.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -55,7 +55,7 @@
       "url": "/services",
       "icons": [
         {
-          "src": "/icons/shubkaryam-96.png",
+          "src": "/icons/shubhakaryam-96.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -68,7 +68,7 @@
       "url": "/bookings",
       "icons": [
         {
-          "src": "/icons/shubkaryam-96.png",
+          "src": "/icons/shubhakaryam-96.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -81,7 +81,7 @@
       "url": "/invite",
       "icons": [
         {
-          "src": "/icons/shubkaryam-96.png",
+          "src": "/icons/shubhakaryam-96.png",
           "sizes": "96x96",
           "type": "image/png"
         }
@@ -94,7 +94,7 @@
       "url": "/astrology",
       "icons": [
         {
-          "src": "/icons/shubkaryam-96.png",
+          "src": "/icons/shubhakaryam-96.png",
           "sizes": "96x96",
           "type": "image/png"
         }

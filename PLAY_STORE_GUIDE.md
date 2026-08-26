@@ -1,6 +1,6 @@
-# Shubhakarya Android Play Store Build Guide
+# Shubhakaryam Android Play Store Build Guide
 
-This guide will help you convert the Shubhakarya PWA into a native Android app for the Google Play Store.
+This guide will help you convert the Shubhakaryam PWA into a native Android app for the Google Play Store.
 
 ## Prerequisites
 
@@ -23,8 +23,8 @@ bubblewrap init --manifest https://pooja-booking-platform-3653.kliv.site/manifes
 
 ### Step 3: Configure App
 Follow the prompts to set up:
-- Package name: `com.shubhakarya.pooja`
-- App name: `Shubhakarya`
+- Package name: `com.shubhakaryam.pooja`
+- App name: `Shubhakaryam`
 - Signing key (auto-generated)
 
 ### Step 4: Build APK
@@ -72,7 +72,7 @@ This generates `app-release.apk` ready for Play Store upload.
 - Complete developer profile
 
 ### 2. Create App Listing
-- App name: "Shubhakarya - Pooja Services"
+- App name: "Shubhakaryam - Pooja Services"
 - Short description: "Book authentic Hindu pooja services, Vedic priests & ceremonies"
 - Full description: (use content from play-store-listing.yaml)
 - Category: Lifestyle > Religion

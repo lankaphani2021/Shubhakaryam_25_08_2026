@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Shubkaryam Android App Bundle Build Script
+# Shubhakaryam Android App Bundle Build Script
 # This script automates the TWA AAB generation process for Google Play Store
 
 set -e
 
-echo "🔥 Building Shubkaryam .aab (Android App Bundle) for Play Store..."
+echo "🔥 Building Shubhakaryam .aab (Android App Bundle) for Play Store..."
 
 # Colors for output
 RED='\033[0;31m'
@@ -57,52 +57,52 @@ echo "📁 Created dist directory for output"
 echo "🔨 Building .aab (Android App Bundle) with Bubblewrap..."
 bubblewrap build \
     --manifest=twa-config.json \
-    --aab="dist/Shubkaryam-release.aab"
+    --aab="dist/Shubhakaryam-release.aab"
 
 # Also generate APK for testing
 echo "🔨 Building .apk for device testing..."
 bubblewrap build \
     --manifest=twa-config.json \
-    --apk="dist/Shubkaryam-release.apk"
+    --apk="dist/Shubhakaryam-release.apk"
 
 # Check if AAB was created
-if [ -f "dist/Shubkaryam-release.aab" ]; then
-    AAB_SIZE=$(du -h "dist/Shubkaryam-release.aab" | cut -f1)
-    APK_SIZE=$(du -h "dist/Shubkaryam-release.apk" | cut -f1)
+if [ -f "dist/Shubhakaryam-release.aab" ]; then
+    AAB_SIZE=$(du -h "dist/Shubhakaryam-release.aab" | cut -f1)
+    APK_SIZE=$(du -h "dist/Shubhakaryam-release.apk" | cut -f1)
     
     echo -e "${GREEN}✅ Build completed successfully!${NC}"
     echo ""
     echo -e "${BLUE}📦 Play Store Upload File:${NC}"
-    echo "   File: dist/Shubkaryam-release.aab"
+    echo "   File: dist/Shubhakaryam-release.aab"
     echo "   Size: $AAB_SIZE"
     echo "   Format: Android App Bundle (.aab)"
     echo ""
     echo -e "${BLUE}📱 Device Testing File:${NC}"
-    echo "   File: dist/Shubkaryam-release.apk"
+    echo "   File: dist/Shubhakaryam-release.apk"
     echo "   Size: $APK_SIZE"
     echo "   Format: Android Package Kit (.apk)"
     echo ""
     
     # Verify files
     echo "🔍 Verifying build files..."
-    ls -lh "dist/Shubkaryam-release.aab"
-    ls -lh "dist/Shubkaryam-release.apk"
+    ls -lh "dist/Shubhakaryam-release.aab"
+    ls -lh "dist/Shubhakaryam-release.apk"
     
     echo ""
     echo -e "${GREEN}🎉 Build completed successfully!${NC}"
     echo ""
     echo "Next steps:"
     echo "1. Test the APK on your Android device:"
-    echo "   - Copy dist/Shubkaryam-release.apk to your phone"
+    echo "   - Copy dist/Shubhakaryam-release.apk to your phone"
     echo "   - Install and test all features"
     echo ""
     echo "2. Upload .aab to Google Play Store:"
     echo "   - Go to https://play.google.com/console"
-    echo "   - Upload dist/Shubkaryam-release.aab (not .apk)"
+    echo "   - Upload dist/Shubhakaryam-release.aab (not .apk)"
     echo "   - .aab is required for Play Store"
     echo ""
-    echo "🙏 Shubkaryam - Traditional Ceremonies Made Simple"
-    echo "Package: com.pooja.shubkaryam"
+    echo "🙏 Shubhakaryam - Traditional Ceremonies Made Simple"
+    echo "Package: com.pooja.shubhakaryam"
     
 else
     echo -e "${RED}❌ AAB build failed${NC}"

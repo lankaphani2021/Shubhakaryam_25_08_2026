@@ -1,20 +1,20 @@
 {
-  "packageId": "com.shubhakarya.pooja",
-  "name": "Shubhakarya",
-  "shortName": "Shubhakarya",
+  "packageId": "com.shubhakaryam.pooja",
+  "name": "Shubhakaryam",
+  "shortName": "Shubhakaryam",
   "themeColor": "#dc2626",
   "backgroundColor": "#ffffff",
   "display": "standalone",
   "orientation": "portrait",
   "startUrl": "/",
   "iconUrls": [
-    "/icons/shubkaryam-192.png",
-    "/icons/shubkaryam-512.png"
+    "/icons/shubhakaryam-192.png",
+    "/icons/shubhakaryam-512.png"
   ],
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "keystore.jks",
-    "alias": "shubhakarya"
+    "alias": "shubhakaryam"
   },
   "features": {
     "location": {

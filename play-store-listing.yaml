@@ -1,7 +1,7 @@
-name: Shubhakarya - Pooja Services
+name: Shubhakaryam - Pooja Services
 short_description: Book authentic Hindu pooja services, Vedic priests & ceremonies
 full_description: |
-  Shubhakarya is your trusted platform for booking authentic Hindu pooja services, Vedic priests, astrology consultations, and ancestral ceremonies. Browse traditional ceremonies, choose verified priests, pick auspicious date and book securely in minutes.
+  Shubhakaryam is your trusted platform for booking authentic Hindu pooja services, Vedic priests, astrology consultations, and ancestral ceremonies. Browse traditional ceremonies, choose verified priests, pick auspicious date and book securely in minutes.
   
   KEY FEATURES:
   • 100+ Pooja Services - Satyanarayan Puja, Griha Pravesh, Weddings, Namkaranam & more
@@ -26,7 +26,7 @@ full_description: |
   SERVICES ACROSS INDIA:
   Currently serving Hyderabad with expansion to other cities coming soon.
   
-  WHY SHUBHAKARYA?
+  WHY SHUBHAKARYAM?
   • Verified and experienced priests
   • Complete samagri and materials provided
   • Transparent pricing, no hidden charges
@@ -42,7 +42,7 @@ support_email: lankaphani2021@gmail.com
 contact_email: lankaphani2021@gmail.com
 
 # Play Store Configuration
-package_name: com.shubhakarya.pooja
+package_name: com.shubhakaryam.pooja
 app_version: 1.0.0
 app_version_code: 1
 min_sdk_version: 19

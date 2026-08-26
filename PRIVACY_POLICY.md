@@ -2,9 +2,9 @@
 
 **Last Updated: July 28, 2026**
 
-## Shubhakarya Privacy Policy
+## Shubhakaryam Privacy Policy
 
-Shubhakarya ("we," "our," or "us") is committed to protecting your privacy. This privacy policy explains how we collect, use, and safeguard your information when you use our Shubhakarya mobile application and website.
+Shubhakaryam ("we," "our," or "us") is committed to protecting your privacy. This privacy policy explains how we collect, use, and safeguard your information when you use our Shubhakarya mobile application and website.
 
 ## Information We Collect
 
@@ -177,7 +177,7 @@ This privacy policy complies with:
 ## Privacy Policy Updates
 
 **Version 1.0 - July 28, 2026**
-- Initial privacy policy for Shubhakarya platform
+- Initial privacy policy for Shubhakaryam platform
 - Comprehensive data protection and user rights
 - Payment processing and service delivery data usage
 

@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Shubkaryam APK Build - Updated Instructions
+# Shubhakaryam APK Build - Updated Instructions
 # Since PWA Builder interface changed, use these reliable methods
 
-echo "🔥 Shubkaryam APK Build Instructions"
+echo "🔥 Shubhakaryam APK Build Instructions"
 echo "======================================"
 echo ""
 

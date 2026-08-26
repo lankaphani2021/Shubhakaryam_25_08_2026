@@ -9,11 +9,11 @@ const ServiceCard = ({ service }: { service: Service }) => (
   >
     <div className="relative h-44 overflow-hidden bg-secondary/20 flex items-center justify-center">
       <img
-        src={service.image_url || "/icons/shubkaryam-192.png"}
+        src={service.image_url || "/icons/shubhakaryam-192.png"}
         alt={service.name}
         className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
         onError={(e) => {
-          (e.target as HTMLImageElement).src = "/icons/shubkaryam-192.png";
+          (e.target as HTMLImageElement).src = "/icons/shubhakaryam-192.png";
         }}
         loading="lazy"
       />

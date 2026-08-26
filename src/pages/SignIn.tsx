@@ -29,7 +29,7 @@ const SignIn = () => {
       
       if (!whitelistCheck.allowed) {
         toast.error(whitelistCheck.message || "Access restricted to invited users only");
-        toast.error("Please contact admin.shubkaryam@yopmail.com for access");
+        toast.error("Please contact admin.shubhakaryam@yopmail.com for access");
         setBusy(false);
         return;
       }
@@ -37,7 +37,7 @@ const SignIn = () => {
       if (mode === "in") await auth.signIn(email, password);
       else await auth.signUp(email, password, name);
       await refresh();
-      toast.success("Welcome to Shubkaryam");
+      toast.success("Welcome to Shubhakaryam");
       navigate(next);
     } catch (err: any) {
       const m = err?.message || "";
@@ -50,21 +50,23 @@ const SignIn = () => {
   };
 
   return (
-    <div className="flex min-h-screen">
-      <div className="hidden lg:flex lg:w-1/2 items-center justify-center bg-[#fefaf6]">
-        <img
-          src="/images/signin-bg.jpg"
-          alt="Traditional Kalash and Om"
-          className="max-h-[80%] max-w-[80%] object-contain"
-        />
+    <div className="flex min-h-screen bg-white">
+      <div className="hidden lg:flex lg:w-1/2 items-center justify-center p-8 border-r border-border/50">
+        <div className="relative w-full max-w-xl aspect-square overflow-hidden flex items-center justify-center">
+          <img
+            src="/images/signin-bg.jpg"
+            alt="Traditional Kalash and Om"
+            className="w-[104%] h-[104%] max-w-none object-cover scale-[1.04]"
+          />
+        </div>
       </div>
-      <div className="flex w-full items-center justify-center px-6 lg:w-1/2">
+      <div className="flex w-full items-center justify-center px-6 lg:w-1/2 bg-white">
         <div className="w-full max-w-sm">
           <Link to="/" className="flex items-center gap-2.5">
             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-saffron to-maroon text-white">
               <Flame className="h-4 w-4" />
             </span>
-            <span className="font-display text-xl text-maroon">Shubkaryam</span>
+            <span className="font-display text-xl text-maroon">Shubhakaryam</span>
           </Link>
 
           <div className="mb-6 rounded-lg border-2 border-dashed border-primary/30 bg-primary/5 p-4">
@@ -78,7 +80,7 @@ const SignIn = () => {
                   This app is only accessible to invited users. Your email must be whitelisted before you can sign in or create an account.
                 </p>
                 <p className="mt-2 text-xs text-primary">
-                  Contact: admin.shubkaryam@yopmail.com for access
+                  Contact: admin.shubhakaryam@yopmail.com for access
                 </p>
               </div>
             </div>

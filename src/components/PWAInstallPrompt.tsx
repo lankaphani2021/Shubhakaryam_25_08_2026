@@ -20,7 +20,7 @@ export const PWAInstallPrompt = () => {
             <Download className="h-5 w-5" />
           </div>
           <div className="flex-1 min-w-0">
-            <h3 className="font-display text-sm text-foreground">Install Shubkaryam App</h3>
+            <h3 className="font-display text-sm text-foreground">Install Shubhakaryam App</h3>
             <p className="mt-1 text-xs text-muted-foreground">
               {isIOS 
                 ? "Install our app for the best experience. Tap share and then 'Add to Home Screen'."

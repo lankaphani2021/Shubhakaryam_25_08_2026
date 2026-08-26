@@ -108,7 +108,7 @@ const InviteFriends = () => {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Shubkaryam - Book Vedic Priests Online",
+          title: "Shubhakaryam - Book Vedic Priests Online",
           text: shareMessage,
           url: inviteLink,
         });

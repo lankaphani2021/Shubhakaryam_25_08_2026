@@ -1,4 +1,4 @@
-const CACHE_NAME = 'shubkaryam-v1';
+const CACHE_NAME = 'shubhakaryam-v1';
 const urlsToCache = [
   '/',
   '/services',

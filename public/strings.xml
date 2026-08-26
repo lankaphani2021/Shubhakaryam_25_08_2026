@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Name -->
-    <string name="app_name">Shubhakarya</string>
+    <string name="app_name">Shubhakaryam</string>
     
     <!-- App URLs -->
     <string name="default_url" translatable="false">https://pooja-booking-platform-3653.kliv.site/</string>
     <string name="allowed_hosts" translatable="false">pooja-booking-platform-3653.kliv.site</string>
     
     <!-- App Display Names -->
-    <string name="app_name_long">Shubhakarya - Traditional Ceremonies Made Simple</string>
+    <string name="app_name_long">Shubhakaryam - Traditional Ceremonies Made Simple</string>
     <string name="app_tagline">Traditional Ceremonies Made Simple</string>
     
     <!-- Web Manifest URL -->
@@ -32,7 +32,7 @@
     <string name="error_network_title">Network Error</string>
     <string name="error_network_message">Please check your internet connection</string>
     <string name="error_loading_title">Loading Error</string>
-    <string name="error_loading_message">Unable to load Shubhakarya services</string>
+    <string name="error_loading_message">Unable to load Shubhakaryam services</string>
     
     <!-- Service Names -->
     <string name="service_pooja">Pooja Services</string>
@@ -57,7 +57,7 @@
     <string name="notification_channel_promotions">Special Offers</string>
     
     <!-- Share Content -->
-    <string name="share_subject">Shubhakarya - Traditional Ceremonies Made Simple</string>
+    <string name="share_subject">Shubhakaryam - Traditional Ceremonies Made Simple</string>
     <string name="share_text">Book verified Vedic priests for poojas, homams, and astrology services. Get ₹100 off on your first booking!</string>
     <string name="share_url">https://pooja-booking-platform-3653.kliv.site</string>
 </resources>

@@ -132,7 +132,7 @@ const SiteHeader = () => {
             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-saffron to-maroon text-white">
               <Flame className="h-4.5 w-4.5" />
             </span>
-            <span className="font-display text-xl text-maroon hidden sm:block">Shubkaryam</span>
+            <span className="font-display text-xl text-maroon hidden sm:block">Shubhakaryam</span>
           </Link>
           
           {/* Search Bar */}

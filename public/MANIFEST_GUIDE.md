@@ -1,4 +1,4 @@
-# Shubkaryam Manifest Files - Complete Guide
+# Shubhakaryam Manifest Files - Complete Guide
 
 All manifest files have been created and are ready for APK generation!
 
@@ -58,7 +58,7 @@ All manifest files have been created and are ready for APK generation!
 ## 🎨 What's Included:
 
 ### Web Manifest Features:
-- ✅ App name: "Shubkaryam - Traditional Ceremonies Made Simple"
+- ✅ App name: "Shubhakaryam - Traditional Ceremonies Made Simple"
 - ✅ Theme colors: Saffron/Maroon gradient (#dc2626)
 - ✅ Working diya icons from Pexels
 - ✅ App shortcuts for quick access
@@ -66,7 +66,7 @@ All manifest files have been created and are ready for APK generation!
 - ✅ Proper PWA configuration
 
 ### Android Manifest Features:
-- ✅ Package: com.pooja.shubkaryam
+- ✅ Package: com.pooja.shubhakaryam
 - ✅ Trusted Web Activity setup
 - ✅ Deep linking for app shortcuts
 - ✅ Permissions for internet/network
@@ -116,6 +116,6 @@ https://pooja-booking-platform-3653.kliv.site
 
 ## ✅ All Files Are Production Ready!
 
-Your Shubkaryam app now has complete manifest files for both web (PWA) and Android (APK) distribution. The diya icon gives it a perfect traditional religious feel!
+Your Shubhakaryam app now has complete manifest files for both web (PWA) and Android (APK) distribution. The diya icon gives it a perfect traditional religious feel!
 
 **Ready to build your APK now!** 🚀

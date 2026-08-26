@@ -1,9 +1,9 @@
-# Google Play Store - Privacy Policy Content for Shubkaryam
+# Google Play Store - Privacy Policy Content for Shubhakaryam
 
-## **Privacy Policy for Shubkaryam - Play Store Data Safety Section**
+## **Privacy Policy for Shubhakaryam - Play Store Data Safety Section**
 
-**App Name:** Shubkaryam  
-**Package Name:** com.pooja.shubkaryam  
+**App Name:** Shubhakaryam  
+**Package Name:** com.pooja.shubhakaryam  
 **Developer Contact:** lankaphani2021@gmail.com  
 **Privacy Policy URL:** https://pooja-booking-platform-3653.kliv.site/privacy.html  
 

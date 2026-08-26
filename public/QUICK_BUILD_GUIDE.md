@@ -1,4 +1,4 @@
-# Shubkaryam Play Store Build Guide
+# Shubhakaryam Play Store Build Guide
 
 Since Node.js is not available in this environment, you'll need to use one of these alternative methods to build your APK:
 
@@ -113,11 +113,11 @@ Once you have the APK:
 
 2. **Create App**:
    - Click "Create app"
-   - Enter app name: "Shubkaryam"
+   - Enter app name: "Shubhakaryam"
    - Select "No, I don't have a draft app"
 
 3. **Upload APK**:
-   - Upload your Shubkaryam.apk file
+   - Upload your Shubhakaryam.apk file
    - Fill in store listing details
 
 4. **Add Assets**:
@@ -129,7 +129,7 @@ Once you have the APK:
    - Description: Already provided in memories
    - Categories: Lifestyle → Religion
    - Content Rating: Everyone
-   - Contact: admin.shubkaryam@yopmail.com
+   - Contact: admin.shubhakaryam@yopmail.com
 
 6. **Submit**:
    - Review and submit for review

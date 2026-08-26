@@ -212,7 +212,7 @@ const Profile = () => {
                 <Button
                   variant="outline"
                   size="sm"
-                  onClick={() => window.location.href = 'mailto:lankaphani2021@gmail.com?subject=Data Deletion Request - Shubkaryam&body=Dear Shubkaryam Admin,%0A%0AI would like to request deletion of my personal data from your Shubkaryam platform.%0A%0AUser Details:%0A- Email: ' + encodeURIComponent(profile.email) + '%0A- Phone: ' + encodeURIComponent(profile.phone) + '%0A%0APlease delete all my personal information including:%0A- Booking history%0A- Account details%0A- Profile information%0A- Any other associated data%0A%0AThank you for processing this request.%0A%0ARegards'}
+                  onClick={() => window.location.href = 'mailto:lankaphani2021@gmail.com?subject=Data Deletion Request - Shubhakaryam&body=Dear Shubhakaryam Admin,%0A%0AI would like to request deletion of my personal data from your Shubhakaryam platform.%0A%0AUser Details:%0A- Email: ' + encodeURIComponent(profile.email) + '%0A- Phone: ' + encodeURIComponent(profile.phone) + '%0A%0APlease delete all my personal information including:%0A- Booking history%0A- Account details%0A- Profile information%0A- Any other associated data%0A%0AThank you for processing this request.%0A%0ARegards'}
                   className="flex-1"
                 >
                   Request Data Deletion

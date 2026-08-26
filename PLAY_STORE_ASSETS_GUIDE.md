@@ -29,7 +29,7 @@ This guide helps create all required assets for Google Play Store submission.
 - [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/)
 
 **Design Guidelines:**
-- Use Shubhakarya flame icon on gradient background
+- Use Shubhakaryam flame icon on gradient background
 - Saffron to maroon gradient background
 - Clean, uncluttered design
 - Good contrast and readability
@@ -42,7 +42,7 @@ This guide helps create all required assets for Google Play Store submission.
 - [Fotor](https://www.fotor.com/)
 
 **Content to Include:**
-- App name: "Shubhakarya"
+- App name: "Shubhakaryam"
 - Tagline: "Book Pooja Services"
 - Key features: 3-4 bullet points
 - Visual elements: Pooja items, priest performing ceremony
@@ -109,7 +109,7 @@ adb pull /sdcard/screen.png
 
 ### Step 4: Design Feature Graphic
 - Use Canva with "Google Play Feature Graphic" template
-- Add "Shubhakarya" branding
+- Add "Shubhakaryam" branding
 - Include key value propositions
 - Match app color scheme
 

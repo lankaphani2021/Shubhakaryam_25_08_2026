@@ -1,4 +1,4 @@
-# Play Store Assets Quick Reference - Shubkaryam
+# Play Store Assets Quick Reference - Shubhakaryam
 
 ## 📐 Image Specifications (Quick Reference)
 
@@ -42,13 +42,13 @@ Text: #FFFFFF (White)
 ### **Icon Creation (5 min):**
 1. Canva → "App Icon" template
 2. Use saffron/maroon gradient
-3. Add diya icon + "SHUBHAKARYA"
+3. Add diya icon + "SHUBHAKARYAM"
 4. Download PNG 512×512
 
 ### **Feature Graphic (10 min):**
 1. Canva → 1024×500 design
 2. Gradient background
-3. "Shubkaryam" + tagline
+3. "Shubhakaryam" + tagline
 4. Download PNG/JPG
 
 ### **Screenshots (20 min):**

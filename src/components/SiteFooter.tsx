@@ -7,7 +7,7 @@ const SiteFooter = () => (
       <div>
         <div className="flex items-center gap-2">
           <Flame className="h-4 w-4 text-saffron" />
-          <span className="font-display text-lg text-maroon">Shubkaryam</span>
+          <span className="font-display text-lg text-maroon">Shubhakaryam</span>
         </div>
         <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
           Authentic Vedic ceremonies across Hyderabad, performed by verified
@@ -26,14 +26,14 @@ const SiteFooter = () => (
       <div>
         <h4 className="font-display text-sm text-foreground">Support</h4>
         <ul className="mt-3 space-y-1.5 text-sm text-muted-foreground">
-          <li>help@shubkaryam.example</li>
+          <li>help@shubhakaryam.example</li>
           <li>+91 98000 00000</li>
           <li>Mon–Sun, 6am to 9pm IST</li>
         </ul>
       </div>
     </div>
     <div className="border-t border-border py-5 text-center text-xs text-muted-foreground">
-      © {new Date().getFullYear()} Shubkaryam. Demo platform — payments are simulated.
+      © {new Date().getFullYear()} Shubhakaryam. Demo platform — payments are simulated.
     </div>
   </footer>
 );

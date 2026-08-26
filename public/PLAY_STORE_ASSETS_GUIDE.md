@@ -1,4 +1,4 @@
-# Play Store Image Assets Creation Guide - Shubkaryam
+# Play Store Image Assets Creation Guide - Shubhakaryam
 
 ## 🎨 Required Images for Google Play Store
 
@@ -6,7 +6,7 @@
 - **Size:** Exactly 512×512 pixels
 - **Format:** PNG with transparency
 - **Design:** Diya/flame icon with saffron-maroon gradient
-- **Text:** "SHUBHAKARYA" + "Pooja Booking" subtitle
+- **Text:** "SHUBHAKARYAM" + "Pooja Booking" subtitle
 - **Template Provided:** icon-template.svg
 
 ### 2. **Feature Graphic (1024×500px)** - RECOMMENDED ⭐⭐
@@ -40,7 +40,7 @@
    - Search "App Icon 512x512"
    - Use saffron/maroon gradient background
    - Add diya/flame icon
-   - Add "SHUBHAKARYA" text
+   - Add "SHUBHAKARYAM" text
    - Download as PNG 512×512
 
 2. **Favicon.io** (https://favicon.io/)
@@ -50,7 +50,7 @@
 
 3. **Android Asset Studio** (https://romannurik.github.io/AndroidAssetStudio/)
    - Text-based icon generator
-   - Enter "SHUBHAKARYA"
+   - Enter "SHUBHAKARYAM"
    - Choose colors: #DC2626 (red), #FFD700 (gold)
    - Download icon set
 
@@ -58,7 +58,7 @@
 1. **Canva**
    - Create design 1024×500
    - Background: Saffron/maroon gradient
-   - Add "Shubkaryam" (large text)
+   - Add "Shubhakaryam" (large text)
    - Add tagline: "Authentic Telugu Poojas & Ceremonies"
    - Add decorative elements: diyas, traditional patterns
    - Download as PNG/JPG
@@ -129,7 +129,7 @@
    - Add gold diya with flame (#FFD700)
    - Center and scale appropriately
 6. **Text:**
-   - Add "SHUBHAKARYA" (white, bold, 48px)
+   - Add "SHUBHAKARYAM" (white, bold, 48px)
    - Add "Pooja Booking" (white, 20px)
 7. **Export:**
    - Download as PNG 512×512
@@ -151,7 +151,7 @@
    - Gradient: Saffron (#FF6B35) to Maroon (#DC2626)
    - Add subtle traditional pattern overlay
 3. **Main Content:**
-   - Add "Shubkaryam" text (120px, bold, white)
+   - Add "Shubhakaryam" text (120px, bold, white)
    - Position: Left-center
    - Tagline: "Authentic Telugu Poojas" (40px, gold)
 4. **Decorative Elements:**

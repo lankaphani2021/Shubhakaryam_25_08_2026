@@ -70,11 +70,11 @@ const Astrology = () => {
               <div key={p.slug} className="overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-shadow hover:shadow-lg">
                 <div className="h-56 overflow-hidden bg-secondary/20 flex items-center justify-center">
                   <img
-                    src={p.photo_url || "/icons/shubkaryam-192.png"}
+                    src={p.photo_url || "/icons/shubhakaryam-192.png"}
                     alt={p.name}
                     className="h-full w-full object-cover"
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = "/icons/shubkaryam-192.png";
+                      (e.target as HTMLImageElement).src = "/icons/shubhakaryam-192.png";
                     }}
                     loading="lazy"
                   />
@@ -127,11 +127,11 @@ const Astrology = () => {
                 >
                   <div className="relative h-44 overflow-hidden bg-secondary/20 flex items-center justify-center">
                     <img
-                      src={s.image_url || "/icons/shubkaryam-192.png"}
+                      src={s.image_url || "/icons/shubhakaryam-192.png"}
                       alt={s.name}
                       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                       onError={(e) => {
-                        (e.target as HTMLImageElement).src = "/icons/shubkaryam-192.png";
+                        (e.target as HTMLImageElement).src = "/icons/shubhakaryam-192.png";
                       }}
                       loading="lazy"
                     />
