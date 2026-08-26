@@ -166,7 +166,16 @@ const BookService = () => {
                       priestSlug === p.slug ? "border-primary bg-secondary" : "border-border hover:border-primary/40"
                     }`}
                   >
-                    <img src={p.photo_url + "&fit=crop"} alt={p.name} className="h-11 w-11 rounded-full object-cover" />
+                    <div className="h-11 w-11 shrink-0 overflow-hidden rounded-full bg-secondary/20 flex items-center justify-center">
+                      <img
+                        src={p.photo_url || "/icons/shubhakaryam-192.png"}
+                        alt={p.name}
+                        className="h-full w-full object-cover"
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).src = "/icons/shubhakaryam-192.png";
+                        }}
+                      />
+                    </div>
                     <div className="min-w-0">
                       <p className="truncate text-sm font-medium text-foreground">{p.name}</p>
                       <p className="truncate text-xs text-muted-foreground">{p.city} · {p.languages}</p>

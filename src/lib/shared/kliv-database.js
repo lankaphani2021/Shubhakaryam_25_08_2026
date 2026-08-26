@@ -10,8 +10,8 @@ const db = {
           deity: "Lord Vishnu",
           description: "A traditional thanksgiving ceremony performed for prosperity and wellness. Traditionally performed in Telugu households.",
           category: "Traditional",
-          price: 5000,
-          duration_minutes: 120,
+          price: 4500,
+          duration_minutes: 150,
           image_url: "/images/satyanarayana-vratam.png"
         },
         {
@@ -119,37 +119,125 @@ const db = {
     if (table === "priests") {
       return [
         {
-          slug: "sharma-ji",
-          name: "Vedic Scholar Sharma",
+          slug: "devanand-mishra",
+          name: "Acharya Devanand Mishra",
           rating: 4.9,
-          tradition: "Rig Veda",
-          bio: "Expert in traditional Telugu rituals with 20+ years of experience.",
-          city: "Global",
-          experience_years: 22,
-          languages: "Telugu, Sanskrit, Hindi",
+          tradition: "Varanasi · Hindi, Sanskrit, English",
+          bio: "Expert in Kashi Vedic traditions and elaborate homams.",
+          city: "Varanasi",
+          experience_years: 25,
+          languages: "Hindi, Sanskrit, English",
           photo_url: "/images/priest-1.jpg"
         },
         {
-          slug: "shastri-garu",
-          name: "Suryanarayana Shastri",
+          slug: "ramakrishna",
+          name: "Pandit V. Ramakrishna",
           rating: 4.8,
-          tradition: "Yajur Veda & Astrology",
-          bio: "Specialist in Muhurtham and traditional marriage ceremonies.",
-          city: "Global",
-          experience_years: 15,
-          languages: "Telugu, English",
+          tradition: "Hyderabad · Telugu, Hindi, Sanskrit",
+          bio: "Specialist in traditional Telugu rituals and Satyanarayana Vratam.",
+          city: "Hyderabad",
+          experience_years: 20,
+          languages: "Telugu, Hindi, Sanskrit",
           photo_url: "/images/priest-2.jpg"
         },
         {
-          slug: "vamsi-krishna",
-          name: "Pandit Vamsi Krishna",
+          slug: "ramesh-sharma",
+          name: "Pandit Ramesh Sharma Shastri",
           rating: 4.9,
-          tradition: "Vedic Astrology",
-          bio: "Expert in Kundali Matching and Nakshatra calculations.",
-          city: "Global",
+          tradition: "Hyderabad · Telugu, Hindi, Sanskrit",
+          bio: "Expert Vedic scholar specializing in marriage and housewarming rituals.",
+          city: "Hyderabad",
+          experience_years: 22,
+          languages: "Telugu, Hindi, Sanskrit",
+          photo_url: "/images/priest-3.jpg"
+        },
+        {
+          slug: "krishna-dikshitar",
+          name: "Sri Krishna Dikshitar",
+          rating: 4.7,
+          tradition: "Madurai · Tamil, Sanskrit",
+          bio: "Specializing in South Indian temple traditions and Agamic rituals.",
+          city: "Madurai",
           experience_years: 18,
-          languages: "Telugu, Sanskrit",
+          languages: "Tamil, Sanskrit",
+          photo_url: "/images/priest-4.jpg"
+        },
+        {
+          slug: "shivkumar-bhatt",
+          name: "Shivkumar Bhatt",
+          rating: 4.8,
+          tradition: "Bangalore · Telugu, Kannada, English",
+          bio: "Vedic priest with expertise in modern city ritual arrangements.",
+          city: "Bangalore",
+          experience_years: 12,
+          languages: "Telugu, Kannada, English",
+          photo_url: "/images/priest-5.jpg"
+        },
+        {
+          slug: "surya-narayan",
+          name: "Acharya Surya Narayan",
+          rating: 4.9,
+          tradition: "Delhi · Hindi, English, Sanskrit",
+          bio: "Renowned scholar for Navagraha Shanti and planetary peace rituals.",
+          city: "Delhi",
+          experience_years: 30,
+          languages: "Hindi, English, Sanskrit",
+          photo_url: "/images/priest-6.jpg"
+        },
+        {
+          slug: "venkatesh-bhattar",
+          name: "Sri Venkatesh Bhattar",
+          rating: 4.8,
+          tradition: "Chennai · Tamil, Telugu, English",
+          bio: "Expert in Vaishnava traditions and elaborate Vishnu poojas.",
+          city: "Chennai",
+          experience_years: 15,
+          languages: "Tamil, Telugu, English",
+          photo_url: "/images/priest-7.jpg"
+        },
+        {
+          slug: "gopal-purohit",
+          name: "Pandit Gopal Purohit",
+          rating: 4.7,
+          tradition: "Pune · Marathi, Hindi, English",
+          bio: "Specialist in Ganesha Chaturthi and Maharashtrian ritual traditions.",
+          city: "Pune",
+          experience_years: 16,
+          languages: "Marathi, Hindi, English",
           photo_url: "/images/priest-1.jpg"
+        },
+        {
+          slug: "meena-devi",
+          name: "Meena Devi",
+          rating: 4.9,
+          tradition: "Chennai · Tamil, Telugu, English",
+          bio: "Expert female priest specializing in Varalakshmi Vratam and women-led rituals.",
+          city: "Chennai",
+          experience_years: 14,
+          languages: "Tamil, Telugu, English",
+          photo_url: "/images/priest-2.jpg"
+        },
+        {
+          slug: "anantha-sarma",
+          name: "Vedamurthy Anantha Sarma",
+          rating: 4.8,
+          tradition: "Hyderabad · Telugu, Sanskrit, Kannada",
+          bio: "Expert in Yajur Veda and complex Shanti Vidhis.",
+          city: "Hyderabad",
+          experience_years: 28,
+          languages: "Telugu, Sanskrit, Kannada",
+          photo_url: "/images/priest-3.jpg"
+        },
+        {
+          slug: "raju-kumar",
+          name: "Pandit Raju Kumar",
+          rating: 4.6,
+          tradition: "Hyderabad · Telugu, Hindi, Sanskrit",
+          bio: "Dedicated priest for daily poojas and smaller family ceremonies.",
+          city: "Hyderabad",
+          experience_years: 10,
+          languages: "Telugu, Hindi, Sanskrit",
+          photo_url: "/images/priest-4.jpg"
         }
       ];
     }
