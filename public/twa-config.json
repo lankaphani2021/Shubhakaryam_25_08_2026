@@ -11,12 +11,12 @@
   "backgroundColor": "#ffffff",
   "icons": [
     {
-      "src": "https://images.pexels.com/photos/34217667/pexels-photo-34217667.jpeg?auto=compress&cs=tinysrgb&w=192&h=192",
+      "src": "/icons/shubkaryam-192.png",
       "sizes": "192x192",
       "types": "image/png"
     },
     {
-      "src": "https://images.pexels.com/photos/34217667/pexels-photo-34217667.jpeg?auto=compress&cs=tinysrgb&w=512&h=512",
+      "src": "/icons/shubkaryam-512.png",
       "sizes": "512x512",
       "types": "image/png"
     }
@@ -25,17 +25,17 @@
     {
       "name": "Browse Poojas",
       "short_url": "/services",
-      "icon_url": "https://images.pexels.com/photos/34217667/pexels-photo-34217667.jpeg?auto=compress&cs=tinysrgb&w=96&h=96"
+      "icon_url": "/icons/shubkaryam-192.png"
     },
     {
       "name": "Book Pooja",
       "short_url": "/bookings",
-      "icon_url": "https://images.pexels.com/photos/34217667/pexels-photo-34217667.jpeg?auto=compress&cs=tinysrgb&w=96&h=96"
+      "icon_url": "/icons/shubkaryam-192.png"
     },
     {
       "name": "My Bookings",
       "short_url": "/bookings",
-      "icon_url": "https://images.pexels.com/photos/34217667/pexels-photo-34217667.jpeg?auto=compress&cs=tinysrgb&w=96&h=96"
+      "icon_url": "/icons/shubkaryam-192.png"
     }
   ],
   "orientation": "portrait",

@@ -62,7 +62,7 @@
   }
 
   body {
-    background-color: var(--color-background);
+    background-color: #fefaf6; /* Soft cream background */
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;

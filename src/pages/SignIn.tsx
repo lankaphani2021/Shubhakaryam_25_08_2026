@@ -51,11 +51,11 @@ const SignIn = () => {
 
   return (
     <div className="flex min-h-screen">
-      <div className="hidden lg:block lg:w-1/2">
+      <div className="hidden lg:flex lg:w-1/2 items-center justify-center bg-[#fefaf6]">
         <img
-          src="https://images.pexels.com/photos/8887279/pexels-photo-8887279.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=1000"
-          alt="Oil lamps"
-          className="h-full w-full object-cover"
+          src="/images/signin-bg.jpg"
+          alt="Traditional Kalash and Om"
+          className="max-h-[80%] max-w-[80%] object-contain"
         />
       </div>
       <div className="flex w-full items-center justify-center px-6 lg:w-1/2">

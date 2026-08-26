@@ -68,11 +68,14 @@ const Astrology = () => {
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {priests.map((p: any) => (
               <div key={p.slug} className="overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-shadow hover:shadow-lg">
-                <div className="h-56 overflow-hidden">
+                <div className="h-56 overflow-hidden bg-secondary/20 flex items-center justify-center">
                   <img
-                    src={p.photo_url + "&fit=crop"}
+                    src={p.photo_url || "/icons/shubkaryam-192.png"}
                     alt={p.name}
                     className="h-full w-full object-cover"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).src = "/icons/shubkaryam-192.png";
+                    }}
                     loading="lazy"
                   />
                 </div>
@@ -122,11 +125,14 @@ const Astrology = () => {
                   to={`/services/${s.slug}`}
                   className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
                 >
-                  <div className="relative h-44 overflow-hidden">
+                  <div className="relative h-44 overflow-hidden bg-secondary/20 flex items-center justify-center">
                     <img
-                      src={s.image_url + "&fit=crop"}
+                      src={s.image_url || "/icons/shubkaryam-192.png"}
                       alt={s.name}
                       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src = "/icons/shubkaryam-192.png";
+                      }}
                       loading="lazy"
                     />
                   </div>

@@ -7,11 +7,14 @@ const ServiceCard = ({ service }: { service: Service }) => (
     to={`/services/${service.slug}`}
     className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
   >
-    <div className="relative h-44 overflow-hidden">
+    <div className="relative h-44 overflow-hidden bg-secondary/20 flex items-center justify-center">
       <img
-        src={service.image_url}
+        src={service.image_url || "/icons/shubkaryam-192.png"}
         alt={service.name}
         className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+        onError={(e) => {
+          (e.target as HTMLImageElement).src = "/icons/shubkaryam-192.png";
+        }}
         loading="lazy"
       />
       <span className="absolute left-3 top-3 rounded-full bg-background/90 px-3 py-1 text-[11px] font-medium uppercase tracking-wide text-maroon">

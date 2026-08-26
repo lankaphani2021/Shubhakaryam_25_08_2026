@@ -6,7 +6,7 @@ const HomeHero = () => (
   <section className="relative overflow-hidden">
     <div className="absolute inset-0">
       <img
-        src="https://images.pexels.com/photos/10182772/pexels-photo-10182772.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=900&w=1800"
+        src="/images/home-hero.jpg"
         alt="Diyas lit for a ceremony"
         className="h-full w-full object-cover"
       />

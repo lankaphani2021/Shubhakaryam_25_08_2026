@@ -3,11 +3,14 @@ import { Priest } from "@/lib/types";
 
 const PriestCard = ({ priest }: { priest: Priest }) => (
   <div className="overflow-hidden rounded-2xl border border-border bg-card shadow-sm transition-shadow hover:shadow-lg">
-    <div className="h-56 overflow-hidden">
+    <div className="h-56 overflow-hidden bg-secondary/20 flex items-center justify-center">
       <img
-        src={priest.photo_url + "&fit=crop"}
+        src={priest.photo_url || "/icons/shubkaryam-192.png"}
         alt={priest.name}
         className="h-full w-full object-cover"
+        onError={(e) => {
+          (e.target as HTMLImageElement).src = "/icons/shubkaryam-192.png";
+        }}
         loading="lazy"
       />
     </div>

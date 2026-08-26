@@ -8,8 +8,8 @@
   "orientation": "portrait",
   "startUrl": "/",
   "iconUrls": [
-    "https://pooja-booking-platform-3653.kliv.site/icon-192.png",
-    "https://pooja-booking-platform-3653.kliv.site/icon-512.png"
+    "/icons/shubkaryam-192.png",
+    "/icons/shubkaryam-512.png"
   ],
   "splashScreenFadeOutDuration": 300,
   "signingKey": {

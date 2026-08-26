@@ -89,21 +89,48 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="bg-gradient-to-br from-saffron/10 to-maroon/10 py-20">
+      <section className="bg-gradient-to-br from-saffron/10 to-maroon/10 py-24">
         <div className="mx-auto max-w-6xl px-4">
-          <div className="flex flex-wrap items-end justify-between gap-4">
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-saffron">Telugu Traditional Services</p>
-              <h2 className="mt-3 text-3xl text-foreground">Authentic Telugu Ceremonies</h2>
-              <p className="mt-2 max-w-md text-muted-foreground">
-                Traditional Andhra Pradesh & Telangana ceremonies performed by verified Vedic priests from Telugu states
+              <h2 className="mt-4 text-4xl text-foreground sm:text-5xl">Authentic Telugu Ceremonies</h2>
+              <p className="mt-4 text-lg text-muted-foreground">
+                Traditional Andhra Pradesh & Telangana ceremonies performed by verified Vedic priests from Telugu states.
               </p>
+              <div className="mt-8 flex flex-wrap gap-4">
+                <div className="flex items-center gap-2 rounded-lg bg-white/50 px-3 py-2 text-sm font-medium text-maroon shadow-sm backdrop-blur-sm">
+                  <span className="text-lg">✨</span> Weddings
+                </div>
+                <div className="flex items-center gap-2 rounded-lg bg-white/50 px-3 py-2 text-sm font-medium text-maroon shadow-sm backdrop-blur-sm">
+                  <span className="text-lg">🏠</span> Griha Pravesham
+                </div>
+                <div className="flex items-center gap-2 rounded-lg bg-white/50 px-3 py-2 text-sm font-medium text-maroon shadow-sm backdrop-blur-sm">
+                  <span className="text-lg">👶</span> Naming Ceremonies
+                </div>
+              </div>
+              <Button asChild size="lg" className="mt-10">
+                <Link to="/services">
+                  Explore Telugu traditions <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+              </Button>
             </div>
-            <Button asChild>
-              <Link to="/services">
-                Explore Telugu traditions <ArrowRight className="ml-1.5 h-4 w-4" />
-              </Link>
-            </Button>
+
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-4">
+                <div className="overflow-hidden rounded-2xl shadow-xl">
+                  <img src="/images/wedding.jpg" alt="Wedding ritual" className="h-64 w-full object-cover transition-transform hover:scale-105" />
+                </div>
+                <div className="overflow-hidden rounded-2xl shadow-xl">
+                  <img src="/images/wedding-2.jpg" alt="Wedding decor" className="h-48 w-full object-cover transition-transform hover:scale-105" />
+                </div>
+              </div>
+              <div className="flex items-center">
+                <div className="overflow-hidden rounded-2xl shadow-xl">
+                  <img src="/images/wedding-3.jpg" alt="Traditional ceremony" className="h-[432px] w-full object-cover transition-transform hover:scale-105" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
