@@ -123,8 +123,8 @@ const db = {
           name: "Vedic Scholar Sharma",
           rating: 4.9,
           tradition: "Rig Veda",
-          bio: "Expert in traditional Telugu rituals with 20+ years of experience in Hyderabad and Vijayawada.",
-          city: "Hyderabad",
+          bio: "Expert in traditional Telugu rituals with 20+ years of experience.",
+          city: "Global",
           experience_years: 22,
           languages: "Telugu, Sanskrit, Hindi",
           photo_url: "/images/priest-1.jpg"
@@ -135,7 +135,7 @@ const db = {
           rating: 4.8,
           tradition: "Yajur Veda & Astrology",
           bio: "Specialist in Muhurtham and traditional marriage ceremonies.",
-          city: "Gachibowli, Hyd",
+          city: "Global",
           experience_years: 15,
           languages: "Telugu, English",
           photo_url: "/images/priest-2.jpg"
@@ -146,7 +146,7 @@ const db = {
           rating: 4.9,
           tradition: "Vedic Astrology",
           bio: "Expert in Kundali Matching and Nakshatra calculations.",
-          city: "Jubilee Hills, Hyd",
+          city: "Global",
           experience_years: 18,
           languages: "Telugu, Sanskrit",
           photo_url: "/images/priest-1.jpg"

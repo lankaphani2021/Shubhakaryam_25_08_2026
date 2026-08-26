@@ -23,26 +23,6 @@ const Index = () => {
 
   return (
     <Layout>
-      {/* Private Access Banner */}
-      <div className="border-b-4 border-primary bg-gradient-to-r from-primary/10 to-maroon/10">
-        <div className="mx-auto max-w-6xl px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary">
-                <span className="text-lg">🔒</span>
-              </div>
-              <div>
-                <p className="font-semibold text-foreground">Private Access Only</p>
-                <p className="text-sm text-muted-foreground">This app is exclusively for invited users. Gmail users & verified contacts only.</p>
-              </div>
-            </div>
-            <Button asChild size="sm" className="hidden sm:flex">
-              <Link to="/signin">Request Access</Link>
-            </Button>
-          </div>
-        </div>
-      </div>
-
       <HomeHero />
 
       <section className="mx-auto max-w-6xl px-4 py-20">
@@ -96,7 +76,7 @@ const Index = () => {
               <p className="text-xs uppercase tracking-[0.2em] text-saffron">Telugu Traditional Services</p>
               <h2 className="mt-4 text-4xl text-foreground sm:text-5xl">Authentic Telugu Ceremonies</h2>
               <p className="mt-4 text-lg text-muted-foreground">
-                Traditional Andhra Pradesh & Telangana ceremonies performed by verified Vedic priests from Telugu states.
+                Traditional ceremonies performed by verified Vedic priests with traditional roots.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <div className="flex items-center gap-2 rounded-lg bg-white/50 px-3 py-2 text-sm font-medium text-maroon shadow-sm backdrop-blur-sm">
@@ -111,7 +91,7 @@ const Index = () => {
               </div>
               <Button asChild size="lg" className="mt-10">
                 <Link to="/services">
-                  Explore Telugu traditions <ArrowRight className="ml-2 h-5 w-5" />
+                  Explore traditions <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
             </div>

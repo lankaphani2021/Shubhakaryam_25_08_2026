@@ -184,7 +184,7 @@ const Profile = () => {
                   id="place"
                   value={profile.place}
                   onChange={(e) => handleChange("place", e.target.value)}
-                  placeholder="Hyderabad"
+                  placeholder="Your City/Region"
                 />
               </div>
             </div>

@@ -23,7 +23,7 @@
 - **Required:** Yes (for doorstep priest services)
 - **Shared:** With assigned priests only for service fulfillment
 
-**Location data (Hyderabad areas)**
+**Location data**
 - **Purpose:** Match with nearby priests, determine service availability
 - **Granularity:** City/area level (not precise GPS coordinates)
 - **Required:** Yes (for service delivery)
@@ -213,7 +213,7 @@
 **Data Collection:**
 - Email addresses (account management, bookings)
 - Phone numbers (priest coordination)
-- Location data (Hyderabad areas for service delivery)
+- Location data for service delivery
 - Birth details (astrology services only - optional)
 - Device identifiers (authentication, security)
 
@@ -249,7 +249,7 @@
 ### **Data Collection Categories:**
 - ✅ **Personal Information:** Name, email, phone, location
 - ✅ **Financial Information:** Payment transactions (processed securely)
-- ✅ **Location:** Hyderabad area for priest services
+- ✅ **Location:** Location for priest services
 - ✅ **Device or other Identifiers:** Device ID for authentication
 - ✅ **Sensitive Information:** Birth details (astrology services - optional)
 

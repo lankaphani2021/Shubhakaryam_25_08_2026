@@ -10,7 +10,7 @@ const SiteFooter = () => (
           <span className="font-display text-lg text-maroon">Shubhakaryam</span>
         </div>
         <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-          Authentic Vedic ceremonies across Hyderabad, performed by verified
+          Authentic Vedic ceremonies, performed by verified
           priests and booked in minutes.
         </p>
       </div>

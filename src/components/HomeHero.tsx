@@ -17,10 +17,10 @@ const HomeHero = () => (
       <div className="max-w-2xl animate-rise">
         <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-3.5 py-1.5 text-xs text-marigold backdrop-blur">
           <Sparkles className="h-3.5 w-3.5" />
-          Telugu Traditions · Hyderabad · Verified Priests
+          Telugu Traditions · Global · Verified Priests
         </span>
         <h1 className="mt-6 text-4xl leading-tight text-white sm:text-6xl">
-          Authentic Telugu ceremonies in Hyderabad,
+          Authentic Telugu ceremonies,
           <br />
           <span className="text-marigold">traditionally arranged.</span>
         </h1>

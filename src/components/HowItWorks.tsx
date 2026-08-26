@@ -11,7 +11,7 @@ const HowItWorks = () => (
   <section className="mx-auto max-w-6xl px-4 py-20">
     <div className="text-center">
       <p className="text-xs uppercase tracking-[0.2em] text-saffron">How it works</p>
-      <h2 className="mt-3 text-3xl text-foreground">Book poojas across Hyderabad in 4 steps</h2>
+      <h2 className="mt-3 text-3xl text-foreground">Book poojas in 4 steps</h2>
     </div>
     <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
       {steps.map((s, i) => (

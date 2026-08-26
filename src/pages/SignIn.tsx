@@ -24,16 +24,6 @@ const SignIn = () => {
     e.preventDefault();
     setBusy(true);
     try {
-      // Check whitelist before proceeding
-      const whitelistCheck = await functions.invoke("whitelist_access", { email });
-      
-      if (!whitelistCheck.allowed) {
-        toast.error(whitelistCheck.message || "Access restricted to invited users only");
-        toast.error("Please contact admin.shubhakaryam@yopmail.com for access");
-        setBusy(false);
-        return;
-      }
-
       if (mode === "in") await auth.signIn(email, password);
       else await auth.signUp(email, password, name);
       await refresh();
@@ -69,24 +59,7 @@ const SignIn = () => {
             <span className="font-display text-xl text-maroon">Shubhakaryam</span>
           </Link>
 
-          <div className="mb-6 rounded-lg border-2 border-dashed border-primary/30 bg-primary/5 p-4">
-            <div className="flex items-start gap-3">
-              <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary/10">
-                <Lock className="h-4 w-4 text-primary" />
-              </div>
-              <div>
-                <p className="text-sm font-medium text-foreground">Private Access Required</p>
-                <p className="mt-1 text-xs text-muted-foreground">
-                  This app is only accessible to invited users. Your email must be whitelisted before you can sign in or create an account.
-                </p>
-                <p className="mt-2 text-xs text-primary">
-                  Contact: admin.shubhakaryam@yopmail.com for access
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <h1 className="text-3xl text-foreground">
+          <h1 className="mt-8 text-3xl text-foreground">
             {mode === "in" ? "Welcome back" : "Create your account"}
           </h1>
           <p className="mt-2 text-sm text-muted-foreground">

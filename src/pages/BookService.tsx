@@ -86,7 +86,7 @@ const BookService = () => {
     if (!slot) return toast.error("Please choose a time slot");
     if (!form.name || !form.phone || !form.address)
       return toast.error("Please fill in your name, phone and address");
-    if (!area) return toast.error("Please select your area in Hyderabad");
+    if (!area) return toast.error("Please select your location");
 
     setSubmitting(true);
     const priest = priests.find((p) => p.slug === priestSlug);

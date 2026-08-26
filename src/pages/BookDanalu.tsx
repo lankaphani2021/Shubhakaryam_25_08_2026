@@ -38,8 +38,8 @@ const BookDanalu = () => {
     queryFn: () => db.query("danalu_services", { slug: `eq.${slug}` }),
   });
   const { data: priests = [] } = useQuery<any[]>({
-    queryKey: ["priests", "hyderabad"],
-    queryFn: () => db.query("priests", { active: "eq.1", city: "eq.Hyderabad", order: "rating.desc" }),
+    queryKey: ["priests", "all"],
+    queryFn: () => db.query("priests", { active: "eq.1", order: "rating.desc" }),
   });
 
   const service = serviceRows?.[0];
@@ -79,7 +79,7 @@ const BookDanalu = () => {
     if (!slot) return toast.error("Please choose a time slot");
     if (!form.name || !form.phone || !form.address)
       return toast.error("Please fill in your name, phone and address");
-    if (!area) return toast.error("Please select your area in Hyderabad");
+    if (!area) return toast.error("Please select your location");
     if (!form.itemDetails) return toast.error("Please describe the items you're donating");
 
     setSubmitting(true);
@@ -145,7 +145,7 @@ const BookDanalu = () => {
                 >
                   <p className="font-medium text-foreground">Any available priest</p>
                   <p className="mt-1 text-xs text-muted-foreground">
-                    We'll assign a Hyderabad-based priest.
+                    We'll assign a verified priest.
                   </p>
                 </button>
                 {priests.map((p) => (
