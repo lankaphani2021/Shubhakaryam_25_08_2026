@@ -2,12 +2,18 @@ plugins {
     id 'com.android.application'
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
 android {
-    namespace 'com.shubhakaryam.pooja'
+    namespace 'com.pooja.shubhakaryam'
     compileSdk 37
 
     defaultConfig {
-        applicationId "com.shubhakaryam.pooja"
+        applicationId "com.pooja.shubhakaryam"
         minSdk 23
         targetSdk 35
         versionCode 2
