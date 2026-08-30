@@ -16,45 +16,73 @@
             android:name="com.google.androidbrowserhelper.trusted.LauncherActivity"
             android:exported="true">
 
+            <!-- Website URL -->
             <meta-data
                 android:name="android.support.customtabs.trusted.DEFAULT_URL"
                 android:value="@string/default_url" />
 
+            <!-- Status bar -->
             <meta-data
                 android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
-                android:value="@color/colorPrimary" />
+                android:resource="@color/colorPrimary" />
 
-            <!-- Splash screen metadata -->
+            <!-- Splash image -->
             <meta-data
                 android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
                 android:resource="@drawable/splash_screen" />
 
+            <!-- Splash background -->
+            <meta-data
+                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+                android:resource="@color/colorPrimary" />
+
+            <!-- Splash fade -->
             <meta-data
                 android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
                 android:value="300" />
+
+            <!-- IMPORTANT: FileProvider authority -->
+            <meta-data
+                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+                android:value="${applicationId}.fileprovider" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-            <intent-filter android:autoVerify="true" tools:targetApi="m">
+            <intent-filter
+                android:autoVerify="true"
+                tools:targetApi="m">
+
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" />
-                <data android:host="pooja-booking-platform-3653.kliv.site" />
+
+                <data
+                    android:scheme="https"
+                    android:host="pooja-booking-platform-3653.kliv.site" />
+
             </intent-filter>
+
         </activity>
+
+        <!-- Activity that allows the user to manage their site data. -->
+        <activity
+            android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+            android:exported="true" />
 
         <service
             android:name="com.google.androidbrowserhelper.trusted.TrustedWebActivityService"
             android:exported="true"
             tools:ignore="ExportedService">
+
             <intent-filter>
                 <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+
         </service>
 
         <provider
@@ -62,9 +90,11 @@
             android:authorities="${applicationId}.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
+
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
+
         </provider>
 
     </application>

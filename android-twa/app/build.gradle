@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
 }
 
+task prepareKotlinBuildScriptModel {}
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
@@ -9,15 +11,15 @@ java {
 }
 
 android {
-    namespace 'com.pooja.shubhakaryam'
+    namespace 'com.kundali.shubhakaryam'
     compileSdk 37
 
     defaultConfig {
-        applicationId "com.pooja.shubhakaryam"
+        applicationId "com.kundali.shubhakaryam"
         minSdk 23
         targetSdk 35
-        versionCode 2
-        versionName "1.0.1"
+        versionCode 10
+        versionName "3.0.7"
         multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -25,7 +27,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
