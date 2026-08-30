@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 import { Heart, ArrowRight, Home, CalendarDays, ShieldCheck } from "lucide-react";
-import db from "@/lib/shared/kliv-database.js";
+import db from "@/lib/shared/app-database.js";
 import Layout from "@/components/Layout";
 import PitruDaanReference from "@/components/PitruDaanReference";
 import { formatINR } from "@/lib/types";

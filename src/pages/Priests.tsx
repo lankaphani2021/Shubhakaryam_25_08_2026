@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import db from "@/lib/shared/kliv-database.js";
+import db from "@/lib/shared/app-database.js";
 import Layout from "@/components/Layout";
 import PriestCard from "@/components/PriestCard";
 import { Priest } from "@/lib/types";

@@ -4,15 +4,15 @@
     <string name="app_name">Shubhakaryam</string>
     
     <!-- App URLs -->
-    <string name="default_url" translatable="false">https://pooja-booking-platform-3653.kliv.site/</string>
-    <string name="allowed_hosts" translatable="false">pooja-booking-platform-3653.kliv.site</string>
+    <string name="default_url" translatable="false">https://shubhakaryam.app/</string>
+    <string name="allowed_hosts" translatable="false">shubhakaryam.app</string>
     
     <!-- App Display Names -->
     <string name="app_name_long">Shubhakaryam - Traditional Ceremonies Made Simple</string>
     <string name="app_tagline">Traditional Ceremonies Made Simple</string>
     
     <!-- Web Manifest URL -->
-    <string name="web_manifest_url" translatable="false">https://pooja-booking-platform-3653.kliv.site/manifest.json</string>
+    <string name="web_manifest_url" translatable="false">https://shubhakaryam.app/manifest.json</string>
     
     <!-- Trusted Web Activity -->
     <string name="trusted_web_activity_id" translatable="false">trusted.web.activity</string>
@@ -20,7 +20,7 @@
     <!-- Asset Statements for App Links -->
     <string name="asset_statements" translatable="false">
         [{
-            "include": "https://pooja-booking-platform-3653.kliv.site/.well-known/assetlinks.json"
+            "include": "https://shubhakaryam.app/.well-known/assetlinks.json"
         }]
     </string>
     
@@ -59,5 +59,5 @@
     <!-- Share Content -->
     <string name="share_subject">Shubhakaryam - Traditional Ceremonies Made Simple</string>
     <string name="share_text">Book verified Vedic priests for poojas, homams, and astrology services. Get ₹100 off on your first booking!</string>
-    <string name="share_url">https://pooja-booking-platform-3653.kliv.site</string>
+    <string name="share_url">https://shubhakaryam.app</string>
 </resources>

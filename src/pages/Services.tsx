@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { useSearchParams } from "react-router-dom";
 import { Search, Home, User, Sparkles, Heart, Baby, Sun, Bell } from "lucide-react";
-import db from "@/lib/shared/kliv-database.js";
+import db from "@/lib/shared/app-database.js";
 import Layout from "@/components/Layout";
 import ServiceCard from "@/components/ServiceCard";
 import { Service } from "@/lib/types";

@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 import { Gift, ArrowRight, Home, Heart, ShieldCheck, Truck } from "lucide-react";
-import db from "@/lib/shared/kliv-database.js";
+import db from "@/lib/shared/app-database.js";
 import Layout from "@/components/Layout";
 import NavagrahaReference from "@/components/NavagrahaReference";
 import PitruDaanReference from "@/components/PitruDaanReference";

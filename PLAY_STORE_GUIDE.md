@@ -18,7 +18,7 @@ npm install -g @anthropic/bubblewrap
 
 ### Step 2: Initialize Project
 ```bash
-bubblewrap init --manifest https://pooja-booking-platform-3653.kliv.site/manifest.json
+bubblewrap init --manifest https://shubhakaryam.app/manifest.json
 ```
 
 ### Step 3: Configure App
@@ -37,7 +37,7 @@ This generates `app-release.apk` ready for Play Store upload.
 ## Method 2: Using PWA Builder (Web-based)
 
 1. Visit [PWA Builder](https://www.pwabuilder.com/)
-2. Enter your website URL: `https://pooja-booking-platform-3653.kliv.site`
+2. Enter your website URL: `https://shubhakaryam.app`
 3. Click "Package for Android"
 4. Download the generated APK
 5. Test the APK on Android devices
@@ -158,7 +158,7 @@ Create `/privacy` page on website with:
 - Developer: Phani Lanka
 - Email: lankaphani2021@gmail.com
 - Support: lankaphani2021@gmail.com
-- Website: https://pooja-booking-platform-3653.kliv.site
+- Website: https://shubhakaryam.app
 
 ## Troubleshooting
 

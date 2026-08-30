@@ -59,7 +59,7 @@ You have the right to:
 
 **Primary Contact:**
 - **Email:** lankaphani2021@gmail.com
-- **Website:** https://pooja-booking-platform-3653.kliv.site
+- **Website:** https://shubhakaryam.app
 - **Response Time:** Within 24-48 hours
 
 ## Data Deletion Process
@@ -97,4 +97,4 @@ For questions about data deletion:
 
 **Last Updated:** August 2025  
 **Contact:** lankaphani2021@gmail.com  
-**Privacy Policy:** https://pooja-booking-platform-3653.kliv.site/privacy.html
+**Privacy Policy:** https://shubhakaryam.app/privacy.html

@@ -107,7 +107,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="https" />
-                <data android:host="pooja-booking-platform-3653.kliv.site" />
+                <data android:host="shubhakaryam.app" />
             </intent-filter>
 
             <!-- Deep linking for app shortcuts -->
@@ -116,7 +116,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="https" />
-                <data android:host="pooja-booking-platform-3653.kliv.site" />
+                <data android:host="shubhakaryam.app" />
                 <data android:path="/services" />
             </intent-filter>
 
@@ -125,7 +125,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="https" />
-                <data android:host="pooja-booking-platform-3653.kliv.site" />
+                <data android:host="shubhakaryam.app" />
                 <data android:path="/bookings" />
             </intent-filter>
 

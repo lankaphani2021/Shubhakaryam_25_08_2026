@@ -5,7 +5,7 @@ Since Node.js is not available in this environment, you'll need to use one of th
 ## Method 1: PWA Builder (Easiest - Recommended)
 
 1. **Go to PWA Builder**: https://www.pwabuilder.com/
-2. **Enter your app URL**: `https://pooja-booking-platform-3653.kliv.site`
+2. **Enter your app URL**: `https://shubhakaryam.app`
 3. **Click "Scan"** - it will detect your PWA
 4. **Click "Android"** - then "Package for Android"
 5. **Download APK** - It will generate the APK file
@@ -22,8 +22,8 @@ Since Node.js is not available in this environment, you'll need to use one of th
    - icon-template.svg
    
    # Also note these URLs:
-   - App URL: https://pooja-booking-platform-3653.kliv.site
-   - Manifest: https://pooja-booking-platform-3653.kliv.site/manifest.json
+   - App URL: https://shubhakaryam.app
+   - Manifest: https://shubhakaryam.app/manifest.json
    ```
 
 2. **Install Node.js** on your computer from https://nodejs.org/
@@ -95,7 +95,7 @@ Capture 2-8 screenshots from your app:
 **For fastest results, use PWA Builder:**
 
 1. Go to https://www.pwabuilder.com/
-2. Enter: `https://pooja-booking-platform-3653.kliv.site`
+2. Enter: `https://shubhakaryam.app`
 3. Click "Scan" → "Android" → "Package for Android"
 4. Download your APK
 5. Test it on your phone

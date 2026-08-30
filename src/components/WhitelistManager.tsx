@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Mail, UserPlus, Trash2, Check, X, Shield, Users, Globe } from "lucide-react";
-import db from "@/lib/shared/kliv-database.js";
+import db from "@/lib/shared/app-database.js";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";

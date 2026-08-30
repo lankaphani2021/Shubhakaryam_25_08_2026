@@ -25,15 +25,15 @@
     }
   },
   "generatorApp": "bubblewrap",
-  "webManifestUrl": "https://pooja-booking-platform-3653.kliv.site/manifest.json",
+  "webManifestUrl": "https://shubhakaryam.app/manifest.json",
   "fallbackType": "customtabs",
   "enableNotifications": false,
   "enableLocation": false,
   "alphaDependencies": {
     "enabled": false
   },
-  "appVersionCode": 10,
-  "appVersionName": "3.0.7",
+  "appVersionCode": 11,
+  "appVersionName": "3.0.8",
   "minSdkVersion": 19,
   "targetSdkVersion": 34
 }

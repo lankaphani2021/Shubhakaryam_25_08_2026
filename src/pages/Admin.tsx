@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
-import db from "@/lib/shared/kliv-database.js";
+import db from "@/lib/shared/app-database.js";
 import Layout from "@/components/Layout";
 import AdminStats from "@/components/AdminStats";
 import BookingRow from "@/components/BookingRow";

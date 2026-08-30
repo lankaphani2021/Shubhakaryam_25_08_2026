@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from "react";
-import auth from "@/lib/shared/kliv-auth.js";
+import auth from "@/lib/shared/app-auth.js";
 
 interface AuthUser {
   userUuid: string;

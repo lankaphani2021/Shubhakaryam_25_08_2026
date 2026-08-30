@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Mail, Copy, Check, Gift, Users, Share2, Loader2 } from "lucide-react";
-import db from "@/lib/shared/kliv-database.js";
+import db from "@/lib/shared/app-database.js";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import { useAuth } from "@/hooks/useAuth";
-import functions from "@/lib/shared/kliv-functions.js";
+import functions from "@/lib/shared/app-functions.js";
 
 const InviteFriends = () => {
   const { user } = useAuth();
@@ -46,7 +46,7 @@ const InviteFriends = () => {
     enabled: !!user?.email,
   });
 
-  const inviteLink = `https://pooja-booking-platform-3653.kliv.site/?ref=${referralCode}`;
+  const inviteLink = `https://shubhakaryam.app/?ref=${referralCode}`;
   const shareMessage = `🪀 Book verified Vedic priests for any ceremony! Use my referral code ${referralCode} for ₹100 off on Shubkaryam: ${inviteLink}`;
 
   const handleInvite = async () => {

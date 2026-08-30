@@ -38,7 +38,7 @@ All manifest files have been created and are ready for APK generation!
 
 ### Method 1: PWA Builder (Easiest)
 1. Go to: https://www.pwabuilder.com/
-2. Enter: https://pooja-booking-platform-3653.kliv.site
+2. Enter: https://shubhakaryam.app
 3. Click "Scan" → "Android" → "Package for Android"
 4. Your manifest.json will be automatically detected
 5. Download APK immediately
@@ -85,14 +85,14 @@ All manifest files have been created and are ready for APK generation!
 ### 1. Test Your Web Manifest
 Open your browser and visit:
 ```
-https://pooja-booking-platform-3653.kliv.site/manifest.json
+https://shubhakaryam.app/manifest.json
 ```
 Should see your complete manifest with diya icons.
 
 ### 2. Generate APK
 Use PWA Builder with your app URL:
 ```
-https://pooja-booking-platform-3653.kliv.site
+https://shubhakaryam.app
 ```
 
 ### 3. Update Asset Links (After APK Signing)

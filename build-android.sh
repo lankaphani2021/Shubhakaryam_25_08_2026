@@ -11,7 +11,7 @@ echo "========================================"
 # Configuration
 APP_NAME="Shubhakaryam"
 PACKAGE_NAME="com.shubhakaryam.pooja"
-MANIFEST_URL="https://pooja-booking-platform-3653.kliv.site/manifest.json"
+MANIFEST_URL="https://shubhakaryam.app/manifest.json"
 OUTPUT_DIR="./android-build"
 VERSION="1.0.0"
 
@@ -27,7 +27,7 @@ fi
 # Check Bubblewrap
 if ! command -v bubblewrap &> /dev/null; then
     echo "📦 Installing Bubblewrap CLI..."
-    npm install -g @anthropic/bubblewrap
+    npm install -g @bubblewrap/cli
 fi
 
 # Create output directory

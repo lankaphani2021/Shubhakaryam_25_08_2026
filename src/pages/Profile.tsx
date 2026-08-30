@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Layout from "@/components/Layout";
 import { toast } from "sonner";
-import db from "@/lib/shared/kliv-database.js";
+import db from "@/lib/shared/app-database.js";
 
 const Profile = () => {
   const { user, refresh } = useAuth();
@@ -220,7 +220,7 @@ const Profile = () => {
                 <Button
                   variant="outline"
                   size="sm"
-                  onClick={() => window.open('https://pooja-booking-platform-3653.kliv.site/privacy.html', '_blank')}
+                  onClick={() => window.open('https://shubhakaryam.app/privacy.html', '_blank')}
                   className="flex-1"
                 >
                   View Privacy Policy

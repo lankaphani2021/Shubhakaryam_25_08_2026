@@ -8,8 +8,8 @@
     "targetSdkVersion": 34
   },
   "web": {
-    "url": "https://pooja-booking-platform-3653.kliv.site",
-    "manifest": "https://pooja-booking-platform-3653.kliv.site/manifest.json",
+    "url": "https://shubhakaryam.app",
+    "manifest": "https://shubhakaryam.app/manifest.json",
     "fallback": "customTabs"
   },
   "display": {
@@ -40,7 +40,7 @@
     "category": "LIFESTYLE",
     "subCategory": "RELIGION",
     "contentRating": "Everyone",
-    "privacyPolicy": "https://pooja-booking-platform-3653.kliv.site/privacy.html",
+    "privacyPolicy": "https://shubhakaryam.app/privacy.html",
     "contactEmail": "lankaphani2021@gmail.com"
   }
 }

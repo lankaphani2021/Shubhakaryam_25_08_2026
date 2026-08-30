@@ -37,4 +37,4 @@ You have the right to request the deletion of your personal data.
 ## Contact Us
 If you have any questions about this Privacy Policy, you can contact us:
 - **Email**: lankaphani2021@gmail.com
-- **Website**: [https://pooja-booking-platform-3653.kliv.site](https://pooja-booking-platform-3653.kliv.site)
+- **Website**: [https://shubhakaryam.app](https://shubhakaryam.app)

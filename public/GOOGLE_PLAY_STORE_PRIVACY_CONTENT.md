@@ -5,7 +5,7 @@
 **App Name:** Shubhakaryam  
 **Package Name:** com.pooja.shubhakaryam  
 **Developer Contact:** lankaphani2021@gmail.com  
-**Privacy Policy URL:** https://pooja-booking-platform-3653.kliv.site/privacy.html  
+**Privacy Policy URL:** https://shubhakaryam.app/privacy.html  
 
 ---
 
@@ -182,7 +182,7 @@
 
 **Privacy Inquiries**
 - **Email:** lankaphani2021@gmail.com
-- **Website:** https://pooja-booking-platform-3653.kliv.site
+- **Website:** https://shubhakaryam.app
 - **Response Time:** Within 24-48 hours
 
 **Data Protection Officer**

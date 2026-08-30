@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { useNavigate, useSearchParams, Link } from "react-router-dom";
 import { Flame, Loader2, Lock } from "lucide-react";
-import auth from "@/lib/shared/kliv-auth.js";
+import auth from "@/lib/shared/app-auth.js";
 import { useAuth } from "@/hooks/useAuth";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
-import functions from "@/lib/shared/kliv-functions.js";
+import functions from "@/lib/shared/app-functions.js";
 
 const SignIn = () => {
   const [mode, setMode] = useState<"in" | "up">("in");

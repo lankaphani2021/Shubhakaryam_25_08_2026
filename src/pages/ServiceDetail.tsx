@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { Clock, Sparkles, ArrowLeft, Check } from "lucide-react";
-import db from "@/lib/shared/kliv-database.js";
+import db from "@/lib/shared/app-database.js";
 import Layout from "@/components/Layout";
 import { Service, formatINR, formatDuration } from "@/lib/types";
 import { Button } from "@/components/ui/button";

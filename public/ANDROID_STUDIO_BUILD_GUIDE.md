@@ -25,7 +25,7 @@ All necessary files are in your /app/public/ directory:
 2. Install Bubblewrap: npm install -g @anthropic/bubblewrap
 3. Run these commands:
    ```
-   bubblewrap init --manifest=https://pooja-booking-platform-3653.kliv.site/manifest.json
+   bubblewrap init --manifest=https://shubhakaryam.app/manifest.json
    bubblewrap build
    ```
 4. Get APK in: app/build/outputs/apk/release/
