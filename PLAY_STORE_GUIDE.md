@@ -23,7 +23,7 @@ bubblewrap init --manifest https://pooja-booking-platform-3653.kliv.site/manifes
 
 ### Step 3: Configure App
 Follow the prompts to set up:
-- Package name: `com.shubhakaryam.pooja`
+- Package name: `com.kundali.shubhakaryam`
 - App name: `Shubhakaryam`
 - Signing key (auto-generated)
 

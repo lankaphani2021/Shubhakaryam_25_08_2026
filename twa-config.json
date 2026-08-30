@@ -1,5 +1,5 @@
 {
-  "packageId": "com.shubhakaryam.pooja",
+  "packageId": "com.kundali.shubhakaryam",
   "name": "Shubhakaryam",
   "shortName": "Shubhakaryam",
   "themeColor": "#dc2626",
@@ -32,8 +32,8 @@
   "alphaDependencies": {
     "enabled": false
   },
-  "appVersionCode": 2,
-  "appVersionName": "1.0.1",
+  "appVersionCode": 10,
+  "appVersionName": "3.0.7",
   "minSdkVersion": 19,
   "targetSdkVersion": 34
 }
