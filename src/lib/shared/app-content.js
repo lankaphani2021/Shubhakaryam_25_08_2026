@@ -1,4 +1,4 @@
-// Mock implementation of kliv-content
+// Mock implementation of app-content
 export const content = {
   uploadFile: async (file, path) => {
     console.log(`[Mock Content] Uploading file to: ${path}`);

@@ -1,4 +1,4 @@
-// Mock implementation of kliv-functions
+// Mock implementation of app-functions
 const functions = {
   invoke: async (name, data, options = {}) => {
     console.log(`[Mock Functions] Invoking: ${name}`, data);

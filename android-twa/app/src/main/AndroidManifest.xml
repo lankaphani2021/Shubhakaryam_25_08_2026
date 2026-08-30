@@ -62,7 +62,7 @@
 
                 <data
                     android:scheme="https"
-                    android:host="pooja-booking-platform-3653.kliv.site" />
+                    android:host="shubhakaryam.app" />
 
             </intent-filter>
 
