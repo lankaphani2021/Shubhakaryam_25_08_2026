@@ -40,9 +40,9 @@ const SignIn = () => {
   };
 
   return (
-    <div className="flex min-h-screen bg-white">
-      <div className="hidden lg:flex lg:w-1/2 items-center justify-center p-8 border-r border-border/50">
-        <div className="relative w-full max-w-xl aspect-square overflow-hidden flex items-center justify-center">
+    <div className="flex min-h-[100dvh] bg-white overflow-y-auto">
+      <div className="hidden lg:flex lg:w-1/2 items-center justify-center p-8 border-r border-border/50 bg-secondary/10">
+        <div className="relative w-full max-w-xl aspect-square overflow-hidden flex items-center justify-center rounded-2xl shadow-2xl">
           <img
             src="/images/signin-bg.jpg"
             alt="Traditional Kalash and Om"
@@ -50,7 +50,7 @@ const SignIn = () => {
           />
         </div>
       </div>
-      <div className="flex w-full items-center justify-center px-6 lg:w-1/2 bg-white">
+      <div className="flex w-full items-center justify-center px-6 py-12 lg:w-1/2 bg-white" style={{ paddingTop: 'calc(3rem + env(safe-area-inset-top))', paddingBottom: 'calc(3rem + env(safe-area-inset-bottom))' }}>
         <div className="w-full max-w-sm">
           <Link to="/" className="flex items-center gap-2.5">
             <span className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-saffron to-maroon text-white">

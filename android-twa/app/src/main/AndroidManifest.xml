@@ -62,7 +62,7 @@
 
                 <data
                     android:scheme="https"
-                    android:host="shubhakaryam.app" />
+                    android:host="shubhakaryam-25-08-2026.vercel.app" />
 
             </intent-filter>
 

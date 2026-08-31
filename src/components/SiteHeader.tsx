@@ -233,88 +233,88 @@ const SiteHeader = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu Overlay */}
       {open && (
-        <div className="border-t border-border bg-background lg:hidden">
-          <div className="px-4 py-3 space-y-1">
-            <div className="mb-4">
-              <div className="px-3 py-2 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+        <div className="fixed inset-0 z-[60] bg-background lg:hidden flex flex-col overflow-y-auto">
+          <div className="flex h-16 items-center justify-between px-4 border-b border-border/70">
+            <Link to="/" onClick={() => setOpen(false)} className="flex items-center gap-2.5">
+              <span className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-saffron to-maroon text-white">
+                <Flame className="h-4.5 w-4.5" />
+              </span>
+              <span className="font-display text-xl text-maroon">Shubhakaryam</span>
+            </Link>
+            <button onClick={() => setOpen(false)} aria-label="Close menu">
+              <X className="h-6 w-6 text-foreground" />
+            </button>
+          </div>
+
+          <div className="flex-1 px-4 py-6 space-y-8">
+            <div>
+              <div className="px-3 mb-4 text-[10px] font-bold text-muted-foreground uppercase tracking-[0.2em]">
                 Services
               </div>
-              {serviceLinks.map((l) => (
-                <Link
-                  key={l.to}
-                  to={l.to}
-                  onClick={() => setOpen(false)}
-                  className="block px-3 py-2 text-sm text-foreground rounded-md hover:bg-accent"
-                >
-                  <div>{l.label}</div>
-                  <div className="text-xs text-muted-foreground">{l.description}</div>
-                </Link>
-              ))}
-            </div>
-            
-            {/* Mobile Search */}
-            <div className="mb-4">
-              <form onSubmit={handleSearch}>
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
-                  <Input
-                    type="search"
-                    value={searchQuery}
-                    onChange={handleSearchChange}
-                    placeholder="Search services..."
-                    className="bg-background pl-9"
-                  />
-                </div>
-              </form>
-            </div>
-            
-            <div className="mb-4">
-              <div className="px-3 py-2 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-                Account
+              <div className="grid gap-2">
+                {serviceLinks.map((l) => (
+                  <Link
+                    key={l.to}
+                    to={l.to}
+                    onClick={() => setOpen(false)}
+                    className="flex items-start gap-3 p-3 text-foreground rounded-xl hover:bg-secondary/50 transition-colors"
+                  >
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-saffron/10 text-saffron">
+                      <Sparkles className="h-5 w-5" />
+                    </div>
+                    <div>
+                      <div className="font-medium">{l.label}</div>
+                      <div className="text-xs text-muted-foreground mt-0.5 line-clamp-1">{l.description}</div>
+                    </div>
+                  </Link>
+                ))}
               </div>
-              <Link to="/profile" onClick={() => setOpen(false)} className="block px-3 py-2 text-sm text-foreground rounded-md hover:bg-accent">
-                <div className="flex items-center gap-2">
-                  <UserCircle className="h-4 w-4" />
-                  <span>Profile</span>
-                </div>
-              </Link>
-              <Link to="/bookings" onClick={() => setOpen(false)} className="block px-3 py-2 text-sm text-foreground rounded-md hover:bg-accent">
-                <div className="flex items-center gap-2">
-                  <Calendar className="h-4 w-4" />
-                  <span>My Bookings</span>
-                </div>
-              </Link>
-              <Link to="/invite" onClick={() => setOpen(false)} className="block px-3 py-2 text-sm text-foreground rounded-md hover:bg-accent">
-                <div className="flex items-center gap-2">
-                  <Gift className="h-4 w-4" />
-                  <span>Invite Friends</span>
-                </div>
-              </Link>
-              {isAdmin && (
-                <Link to="/admin" onClick={() => setOpen(false)} className="block px-3 py-2 text-sm text-foreground rounded-md hover:bg-accent">
-                  Admin
-                </Link>
-              )}
             </div>
             
-            <div className="pt-3 border-t border-border">
-              {user ? (
-                <Button variant="outline" size="sm" className="w-full" onClick={handleSignOut}>
-                  Sign out
-                </Button>
-              ) : (
-                <div className="space-y-2">
-                  <Button size="sm" className="w-full" onClick={() => { setOpen(false); navigate("/signin"); }}>
-                    Sign in
-                  </Button>
-                  <Button size="sm" variant="outline" className="w-full" onClick={() => { setOpen(false); navigate("/services"); }}>
-                    Book a pooja
-                  </Button>
-                </div>
-              )}
+            <div>
+              <div className="px-3 mb-4 text-[10px] font-bold text-muted-foreground uppercase tracking-[0.2em]">
+                Account & Settings
+              </div>
+              <div className="grid gap-2">
+                <Link to="/profile" onClick={() => setOpen(false)} className="flex items-center gap-3 p-3 text-foreground rounded-xl hover:bg-secondary/50">
+                  <UserCircle className="h-5 w-5 text-muted-foreground" />
+                  <span className="font-medium">Profile</span>
+                </Link>
+                <Link to="/bookings" onClick={() => setOpen(false)} className="flex items-center gap-3 p-3 text-foreground rounded-xl hover:bg-secondary/50">
+                  <Calendar className="h-5 w-5 text-muted-foreground" />
+                  <span className="font-medium">My Bookings</span>
+                </Link>
+                <Link to="/invite" onClick={() => setOpen(false)} className="flex items-center gap-3 p-3 text-foreground rounded-xl hover:bg-secondary/50">
+                  <Gift className="h-5 w-5 text-muted-foreground" />
+                  <span className="font-medium">Invite Friends</span>
+                </Link>
+                {isAdmin && (
+                  <Link to="/admin" onClick={() => setOpen(false)} className="flex items-center gap-3 p-3 text-foreground rounded-xl hover:bg-secondary/50">
+                    <User className="h-5 w-5 text-muted-foreground" />
+                    <span className="font-medium">Admin Dashboard</span>
+                  </Link>
+                )}
+              </div>
             </div>
+          </div>
+
+          <div className="p-4 border-t border-border/70 bg-secondary/5">
+            {user ? (
+              <Button variant="outline" size="lg" className="w-full rounded-xl h-14 border-red-100 text-red-600 font-medium" onClick={handleSignOut}>
+                <LogOut className="mr-2 h-5 w-5" /> Sign out
+              </Button>
+            ) : (
+              <div className="grid gap-3">
+                <Button size="lg" className="w-full rounded-xl h-14 bg-primary text-white font-semibold shadow-lg" onClick={() => { setOpen(false); navigate("/signin"); }}>
+                  Sign in
+                </Button>
+                <Button size="lg" variant="outline" className="w-full rounded-xl h-14 font-medium border-border/70" onClick={() => { setOpen(false); navigate("/services"); }}>
+                  Browse Services
+                </Button>
+              </div>
+            )}
           </div>
         </div>
       )}

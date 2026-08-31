@@ -25,15 +25,15 @@
     }
   },
   "generatorApp": "bubblewrap",
-  "webManifestUrl": "https://shubhakaryam.app/manifest.json",
+  "webManifestUrl": "https://shubhakaryam-25-08-2026.vercel.app/manifest.json",
   "fallbackType": "customtabs",
   "enableNotifications": false,
   "enableLocation": false,
   "alphaDependencies": {
     "enabled": false
   },
-  "appVersionCode": 11,
-  "appVersionName": "3.0.8",
+  "appVersionCode": 13,
+  "appVersionName": "3.1.0",
   "minSdkVersion": 19,
   "targetSdkVersion": 34
 }
